@@ -1,0 +1,80 @@
+{
+  "title" : "Přihlásit se",
+  "customerSupport" : {
+    "needHelp" : "Potřebujete pomoc?",
+    "supportLink" : "ZÁKAZNICKÁ PODPORA"
+  },
+  "loginCredentials" : {
+    "userIDLabel" : "uživatelské ID",
+    "userIDSubTitle" : "Nemáte uživatelské ID?",
+    "createOne" : "Vytvořte si jej.",
+    "credentialsHeader" : "Chcete-li se přihlásit, zadejte své uživatelské ID a heslo.",
+    "rememberMeLabel" : "Zapamatovat si mé údaje na tomto zařízení.",
+    "loginButton" : "Přihlásit se",
+    "passwordLabel" : "heslo",
+    "forgotCredentialsLink" : "Zapomněli jste uživatelské ID nebo heslo?",
+    "errorRequired" : "Pro přihlášení se vyžaduje uživatelské ID i heslo.",
+    "errorIncorrect" : "Chybné přihlášení. Kombinace ID uživatele a hesla je nesprávná nebo byl účet zablokován. Zkuste to prosím znovu nebo si obnovte své heslo.",
+    "showBtn" : "ZOBRAZIT",
+    "hideBtn" : "SKRÝT"
+  },
+  "userID" : {
+    "loginButton" : "PŘIHLÁSIT SE"
+  },
+  "credential" : {
+    "userId" : "UŽIVATELSKÉ ID",
+    "password" : "HESLO"
+  },
+  "accountLocked" : {
+    "header" : "Váš účet je dočasně uzamčen.",
+    "subtitle" : "Překročili jste maximální počet pokusů o přihlášení. Uzamkli jsme váš účet, abychom předešli neoprávněnému přístupu. Můžete se pokusit znovu přihlásit za <b>1 hodinu.<b>",
+    "needHelp" : "Potřebujete pomoci s přístupem k účtu?",
+    "forgotButton" : "ZAPOMNĚLI JSTE UŽIVATELSKÉ ID NEBO HESLO?",
+    "passwordLabel" : "heslo"
+  },
+  "forgotUserId" : {
+    "forgotButton" : "ZAPOMNĚLI JSTE UŽIVATELSKÉ ID NEBO HESLO?"
+  },
+  "chooseVerifyMethod" : {
+    "verifyMethodTitle" : "Vyberte si metodu ověření",
+    "verifyMethodSubtitle" : "Zašleme vám ověřovací kód s použitím kontaktních údajů ve vašem profilu.",
+    "emailMethod" : "EMAIL",
+    "smsTextMethod" : "Text SMS zprávy",
+    "phoneCallMethod" : "TELEFONICKÝ HOVOR",
+    "confirmButton" : "POTVRDIT",
+    "cancelButton" : "STORNO"
+  },
+  "verifyOptions" : {
+    "verifyOptionsLink" : "POUŽÍT JINOU METODU OVĚŘENÍ"
+  },
+  "fail" : {
+    "header" : "Překročili jste povolený počet pokusů o ověření.",
+    "tryAgainButton" : "ZKUSIT ZNOVU"
+  },
+  "verifyYourIdentity" : {
+    "verifyYourIdentityHeader" : "Ověřte svou totožnost",
+    "verifyOptionsLink" : "POUŽÍT JINOU METODU OVĚŘENÍ",
+    "SubtitleNumberOne" : "Zadejte kód, který jsme vám zaslali na číslo uvedené ve vašem profilu.",
+    "SubtitleNumberTwo" : "Ověřovací kódy zaslané prostřednictvím SMS mají platnost 10 minut.",
+    "SubtitleCallOne" : "Zadejte kód, který jsme vám zaslali na e-mailovou adresu uvedenou ve vašem profilu.",
+    "SubtitleCallTwo" : "Ověřovací kódy zaslané prostřednictvím e-mailu mají platnost 10 minut.",
+    "SubtitlePhoneOne" : "Zadejte kód, který jsme vám zaslali na telefonní číslo uvedené ve vašem profilu.",
+    "SubtitlePhoneTwo" : "Ověřovací kódy zaslané prostřednictvím telefonu mají platnost 10 minut.",
+    "didntReceiveCode" : "Neobdrželi jste kód?",
+    "didntReceiveCodeSubtitle" : "Pokud jste do několika minut neobdrželi kód, vyžádejte si nový.",
+    "requestCode" : "VYŽÁDAT NOVÝ KÓD",
+    "stillHaventHeardBack" : "Pokud jste od nás stále nic neobdrželi, ujistěte se, že jste zadali správné uživatelské ID.",
+    "ADAriaLable" : "Číslo kódu ověření",
+    "tooltipLable" : "You will not be asked for a verification code for this device in the future"
+  },
+  "otpForm" : {
+    "rememberMeOnthisDevice" : "Považovat toto zařízení v budoucnu za důvěryhodné",
+    "submitBtn" : "ODESLAT",
+    "enterSecurityCode" : "Zadat bezpečnostní kód",
+    "codeRequired" : "Je vyžadován 6místný kód.",
+    "reenterOrRequestNewCode" : "Kód je nesprávný nebo mu vypršela platnost. Zadejte kód znovu nebo si vyžádejte nový kód."
+  },
+  "error" : {
+    "functionalErr" : "We are having trouble establishing a connection. Please refresh the page."
+  }
+}

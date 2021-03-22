@@ -1,0 +1,80 @@
+{
+  "title" : "登入",
+  "customerSupport" : {
+    "needHelp" : "需要協助嗎？",
+    "supportLink" : "顧客支援"
+  },
+  "loginCredentials" : {
+    "userIDLabel" : "用戶識別碼",
+    "userIDSubTitle" : "沒有用戶識別碼？",
+    "createOne" : "您可以建立一個用戶識別碼。",
+    "credentialsHeader" : "請輸入您的用戶識別碼和密碼以便登入",
+    "rememberMeLabel" : "在此裝置上記住我",
+    "loginButton" : "登入",
+    "passwordLabel" : "密碼",
+    "forgotCredentialsLink" : "忘記您的用戶識別碼或密碼？",
+    "errorRequired" : "登入時必須使用用戶識別碼和密碼。",
+    "errorIncorrect" : "登入錯誤。可能是用戶識別碼或密碼不正確，或是帳戶已遭鎖定。請再試一次，或重設密碼。",
+    "showBtn" : "顯示",
+    "hideBtn" : "隱藏"
+  },
+  "userID" : {
+    "loginButton" : "登入"
+  },
+  "credential" : {
+    "userId" : "用戶識別碼",
+    "password" : "密碼"
+  },
+  "accountLocked" : {
+    "header" : "您的帳號已暫時鎖定。",
+    "subtitle" : "您的嘗試登入失敗次數已超過上限。我們已鎖定您的帳號，以防止未獲授權的存取。您可在 <b>1 小時<b>內再次嘗試登入。",
+    "needHelp" : "需要協助以取得帳號存取權？",
+    "forgotButton" : "忘記您的用戶識別碼或密碼？",
+    "passwordLabel" : "密碼"
+  },
+  "forgotUserId" : {
+    "forgotButton" : "忘記使用者識別碼或密碼？"
+  },
+  "chooseVerifyMethod" : {
+    "verifyMethodTitle" : "選擇驗證方法",
+    "verifyMethodSubtitle" : "我們會透過您個人資料上的聯絡資訊，將驗證碼傳送給您。",
+    "emailMethod" : "電子郵件",
+    "smsTextMethod" : "簡訊",
+    "phoneCallMethod" : "電話",
+    "confirmButton" : "確認",
+    "cancelButton" : "取消"
+  },
+  "verifyOptions" : {
+    "verifyOptionsLink" : "使用其他驗證方式"
+  },
+  "fail" : {
+    "header" : "您已超過允許的驗證嘗試次數。",
+    "tryAgainButton" : "請再試一次"
+  },
+  "verifyYourIdentity" : {
+    "verifyYourIdentityHeader" : "驗證您的身分",
+    "verifyOptionsLink" : "使用其他驗證方式",
+    "SubtitleNumberOne" : "輸入我們透過您個人資料上的電話以簡訊所傳送的驗證碼",
+    "SubtitleNumberTwo" : "透過簡訊傳送的驗證碼有效時間為 10 分鐘。",
+    "SubtitleCallOne" : "輸入我們透過您個人資料上的電子郵件所傳送的驗證碼",
+    "SubtitleCallTwo" : "透過電子郵件傳送的驗證碼有效時間為 10 分鐘。",
+    "SubtitlePhoneOne" : "輸入我們透過您個人資料上的電話號碼所傳送的驗證碼",
+    "SubtitlePhoneTwo" : "透過電話傳送的驗證碼有效時間為 10 分鐘。",
+    "didntReceiveCode" : "尚未收到驗證碼？",
+    "didntReceiveCodeSubtitle" : "如果數分鐘後您尚未收到驗證碼，可要求新的驗證碼。",
+    "requestCode" : "請求新驗證碼",
+    "stillHaventHeardBack" : "如果您仍未收到我們的驗證碼，可能需要確認輸入的用戶識別碼是否正確。",
+    "ADAriaLable" : "驗證碼數字",
+    "tooltipLable" : "You will not be asked for a verification code for this device in the future"
+  },
+  "otpForm" : {
+    "rememberMeOnthisDevice" : "在未來都信任此裝置",
+    "submitBtn" : "送出",
+    "enterSecurityCode" : "輸入安全碼",
+    "codeRequired" : "必須填入 6 位數驗證碼。",
+    "reenterOrRequestNewCode" : "驗證碼不正確或已過期。請重新輸入驗證碼或要求新驗證碼。"
+  },
+  "error" : {
+    "functionalErr" : "We are having trouble establishing a connection. Please refresh the page."
+  }
+}

@@ -1,0 +1,15 @@
+{ 
+  "screenshotOnRunFailure": true,
+  "integrationFolder": "cypress/integration/EndToEnd_Testing",
+  "pageLoadTimeout": 400000,
+  "reporter":"mochawesome",
+  "reporterOptions":{
+    "reportdir":"mochawesome-report",
+    "overwrite":true,
+    "html":true,
+    "json": false,
+    "charts": true,
+    "timestamp":"yyyy" 
+  },
+  "video": false
+}

@@ -1,0 +1,80 @@
+{
+  "title" : "התחברות",
+  "customerSupport" : {
+    "needHelp" : "זקוקים לעזרה?",
+    "supportLink" : "תמיכת לקוחות"
+  },
+  "loginCredentials" : {
+    "userIDLabel" : "מזהה משתמש",
+    "userIDSubTitle" : "אין לך מזהה משתמש?",
+    "createOne" : "צור מזהה משתמש.",
+    "credentialsHeader" : "הזן את מזהה המשתמש והסיסמה שלך כדי להיכנס",
+    "rememberMeLabel" : "זכרו אותי במכשיר זה",
+    "loginButton" : "כניסה",
+    "passwordLabel" : "סיסמה",
+    "forgotCredentialsLink" : "שכחת את מזהה המשתמש או הסיסמה שלך?",
+    "errorRequired" : "גם מזהה המשתמש וגם הסיסמה נדרשים כדי להיכנס.",
+    "errorIncorrect" : "כניסה שגויה. ייתכן שהשילוב של מזהה המשתמש והסיסמה שגוי או שהחשבון ננעל. נסה שוב או אפס את הסיסמה שלך.",
+    "showBtn" : "הצג",
+    "hideBtn" : "הסתר"
+  },
+  "userID" : {
+    "loginButton" : "כניסה"
+  },
+  "credential" : {
+    "userId" : "מזהה משתמש",
+    "password" : "סיסמה"
+  },
+  "accountLocked" : {
+    "header" : "החשבון שלך נעול באופן זמני.",
+    "subtitle" : "חרגת מן המספר המרבי של ניסיונות כניסה שנכשלו. נעלנו את החשבון שלך כדי למנוע גישה בלתי מורשית. תוכל לנסות להיכנס שוב בעוד <b>שעה.<b>",
+    "needHelp" : "זקוק לעזרה בקבלת גישה לחשבון?",
+    "forgotButton" : "שכחת את מזהה המשתמש או הסיסמה שלך?",
+    "passwordLabel" : "סיסמה"
+  },
+  "forgotUserId" : {
+    "forgotButton" : "שכחת את מזהה המשתמש או הסיסמה שלך?"
+  },
+  "chooseVerifyMethod" : {
+    "verifyMethodTitle" : "בחר שיטת אימות",
+    "verifyMethodSubtitle" : "נשלח לך קוד אימות תוך שימוש בפרטי הקשר בפרופיל שלך.",
+    "emailMethod" : "שלח דוא\"ל",
+    "smsTextMethod" : "הודעת טקסט",
+    "phoneCallMethod" : "שיחת טלפון",
+    "confirmButton" : "אשר",
+    "cancelButton" : "ביטול"
+  },
+  "verifyOptions" : {
+    "verifyOptionsLink" : "השתמש בשיטת אימות שונה"
+  },
+  "fail" : {
+    "header" : "חרגת ממספר ניסיונות האימות המותר.",
+    "tryAgainButton" : "נסה שוב"
+  },
+  "verifyYourIdentity" : {
+    "verifyYourIdentityHeader" : "אמת את הזהות שלך",
+    "verifyOptionsLink" : "השתמש בשיטת אימות שונה",
+    "SubtitleNumberOne" : "Enter the code we texted to the number on your profile",
+    "SubtitleNumberTwo" : "קודי אימות הנשלחים באמצעות הודעת טקסט תקפים למשך 10 דקות.",
+    "SubtitleCallOne" : "Enter the code we sent to the email on your profile",
+    "SubtitleCallTwo" : "קודי אימות הנשלחים באמצעות דוא\"ל תקפים למשך 10 דקות.",
+    "SubtitlePhoneOne" : "Enter the code we sent to the phone number on your profile",
+    "SubtitlePhoneTwo" : "קודי אימות הנשלחים באמצעות שיחת טלפון תקפים למשך 10 דקות.",
+    "didntReceiveCode" : "לא קיבלת קוד?",
+    "didntReceiveCodeSubtitle" : "אם כעבור מספר דקות לא קיבלת קוד, תוכל לבקש אחד חדש.",
+    "requestCode" : "בקש קוד חדש",
+    "stillHaventHeardBack" : "אם עדיין לא שמעת מאיתנו, יש לוודא שהזנת את מזהה המשתמש הנכון.",
+    "ADAriaLable" : "ספרת קוד אימות",
+    "tooltipLable" : "You will not be asked for a verification code for this device in the future"
+  },
+  "otpForm" : {
+    "rememberMeOnthisDevice" : "Trust this device in the future",
+    "submitBtn" : "הגש",
+    "enterSecurityCode" : "הזן את קוד האבטחה",
+    "codeRequired" : "נדרש קוד בן 6 ספרות.",
+    "reenterOrRequestNewCode" : "הקוד שגוי או שפג תוקפו. הזן שוב את הקוד או בקש קוד חדש."
+  },
+  "error" : {
+    "functionalErr" : "We are having trouble establishing a connection. Please refresh the page."
+  }
+}

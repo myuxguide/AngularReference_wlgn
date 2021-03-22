@@ -1,0 +1,80 @@
+{
+  "title": "Login",
+  "customerSupport": {
+    "needHelp": "Need help?",
+    "supportLink": "CUSTOMER SUPPORT"
+  },
+  "loginCredentials": {
+    "userIDLabel": "user ID",
+    "userIDSubTitle": "Don't have a user ID?",
+    "createOne": "Create one.",
+    "credentialsHeader": "Enter your user ID and password to log in",
+    "rememberMeLabel": "Remember me on this device",
+    "loginButton": "Log in",
+    "passwordLabel": "password",
+    "forgotCredentialsLink": "Forgot your User ID or Password?",
+    "errorRequired": "Both user ID and password are required to log in.",
+    "errorIncorrect": "Login incorrect. Either the user ID or password combination is incorrect or the account has been locked. Please try again or reset your password.",
+    "showBtn": "SHOW",
+    "hideBtn": "HIDE"
+  },
+  "userID": {
+    "loginButton": "LOG IN"
+  },
+  "credential": {
+    "userId": "USER ID",
+    "password": "PASSWORD"
+  },
+  "accountLocked": {
+    "header": "Your account is locked temporarily.",
+    "subtitle": "You exceeded the maximum number of failed login attempts. We have locked your account to prevent unauthorized access. You may attempt to log in again in <b>1 hour.<b>",
+    "needHelp": "Need help gaining access to your account?",
+    "forgotButton": "FORGOT YOUR USER ID OR PASSWORD?",
+    "passwordLabel": "password"
+  },
+  "forgotUserId": {
+    "forgotButton": "FORGOT YOUR USER ID OR PASSWORD?"
+  },
+  "chooseVerifyMethod": {
+    "verifyMethodTitle": "Choose a verification method",
+    "verifyMethodSubtitle": "We'll send you a verification code using the contact information on your profile.",
+    "emailMethod": "EMAIL",
+    "smsTextMethod": "SMS TEXT",
+    "phoneCallMethod": "PHONE CALL",
+    "confirmButton": "CONFIRM",
+    "cancelButton": "CANCEL"
+  },
+  "verifyOptions": {
+    "verifyOptionsLink": "USE A DIFFERENT VERIFICATION METHOD"
+  },
+  "fail": {
+    "header": "You have exceeded the number of allowed verification attempts.",
+    "tryAgainButton": "TRY AGAIN"
+  },
+  "verifyYourIdentity": {
+    "verifyYourIdentityHeader": "Verify your identity",
+    "verifyOptionsLink": "USE A DIFFERENT VERIFICATION METHOD",
+    "SubtitleNumberOne": "Enter the code we texted to the number on your profile",
+    "SubtitleNumberTwo": "Verification codes sent via text are valid for 10 minutes.",
+    "SubtitleCallOne": "Enter the code we sent to the email on your profile",
+    "SubtitleCallTwo": "Verification codes sent via email are valid for 10 minutes.",
+    "SubtitlePhoneOne": "Enter the code we sent to the phone number on your profile",
+    "SubtitlePhoneTwo": "Verification codes sent via phone are valid for 10 minutes.",
+    "didntReceiveCode": "Didn’t receive a code?",
+    "didntReceiveCodeSubtitle": "If you haven’t received a code after a few minutes, you can request a new one.",
+    "requestCode": "REQUEST NEW CODE",
+    "stillHaventHeardBack": "If you still haven’t heard from us, you may want to verify you entered the correct user ID.",
+    "ADAriaLable": "Verification Code Digit",
+    "tooltipLable": "You will not be asked for a verification code for this device in the future" 
+  },
+  "otpForm": {
+    "rememberMeOnthisDevice": "Trust this device in the future",
+    "submitBtn": "SUBMIT",
+    "enterSecurityCode": "Enter the security code",
+    "codeRequired": "A 6-digit code is required.",
+    "reenterOrRequestNewCode": "Code is incorrect or has expired. Please reenter the code or request a new code."
+  },
+  "error": {
+    "functionalErr": "We are having trouble establishing a connection. Please refresh the page."
+  }
+}

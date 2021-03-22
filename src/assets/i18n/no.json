@@ -1,0 +1,80 @@
+{
+  "title" : "Innlogging",
+  "customerSupport" : {
+    "needHelp" : "Trenger du hjelp?",
+    "supportLink" : "KUNDESTØTTE"
+  },
+  "loginCredentials" : {
+    "userIDLabel" : "bruker-ID",
+    "userIDSubTitle" : "Har du ikke en bruker-ID?",
+    "createOne" : "Opprett en.",
+    "credentialsHeader" : "Angi bruker-ID og passord for å logge inn",
+    "rememberMeLabel" : "Husk meg på denne enheten",
+    "loginButton" : "Logg inn",
+    "passwordLabel" : "passord",
+    "forgotCredentialsLink" : "Har du glemt bruker-ID-en eller passordet?",
+    "errorRequired" : "Både bruker-ID og passord er obligatorisk for å logge inn.",
+    "errorIncorrect" : "Påloggingsinformasjonen er feil. Enten er bruker-ID- eller passordkombinasjonen feil, eller så er kontoen blitt låst. Prøv på nytt eller tilbakestill passordet.",
+    "showBtn" : "VIS",
+    "hideBtn" : "SKJUL"
+  },
+  "userID" : {
+    "loginButton" : "LOGG INN"
+  },
+  "credential" : {
+    "userId" : "BRUKER-ID",
+    "password" : "PASSORD"
+  },
+  "accountLocked" : {
+    "header" : "Kontoen din er midlertidig låst.",
+    "subtitle" : "Du har overskredet det maksimale antallet mislykkede innloggingsforsøk. Vi har låst kontoen din for å forhindre uautorisert tilgang. Du kan prøve å logge inn igjen om <b>1 time.<b>",
+    "needHelp" : "Trenger du hjelp med å få tilgang til kontoen din?",
+    "forgotButton" : "HAR DU GLEMT BRUKER-ID-EN ELLER PASSORDET?",
+    "passwordLabel" : "passord"
+  },
+  "forgotUserId" : {
+    "forgotButton" : "HAR DU GLEMT BRUKER-ID-EN ELLER PASSORDET?"
+  },
+  "chooseVerifyMethod" : {
+    "verifyMethodTitle" : "Velg en bekreftelsesmetode",
+    "verifyMethodSubtitle" : "Vi sender deg en bekreftelseskode ved hjelp av kontaktinformasjonen i profilen.",
+    "emailMethod" : "E-POST",
+    "smsTextMethod" : "SMS-MELDING",
+    "phoneCallMethod" : "TELEFONSAMTALE",
+    "confirmButton" : "BEKREFT",
+    "cancelButton" : "AVBRYT"
+  },
+  "verifyOptions" : {
+    "verifyOptionsLink" : "BRUK EN ANNEN BEKREFTELSESMETODE"
+  },
+  "fail" : {
+    "header" : "Du har overskredet maks. antall tillatte bekreftelsesforsøk.",
+    "tryAgainButton" : "PRØV PÅ NYTT"
+  },
+  "verifyYourIdentity" : {
+    "verifyYourIdentityHeader" : "Bekreft identiteten din",
+    "verifyOptionsLink" : "BRUK EN ANNEN BEKREFTELSESMETODE",
+    "SubtitleNumberOne" : "Skriv inn koden vi sendte til nummeret i profilen din",
+    "SubtitleNumberTwo" : "Bekreftelseskoder sendt via SMS er gyldige i 10 minutter.",
+    "SubtitleCallOne" : "Enter the code we sent to the email on your profile",
+    "SubtitleCallTwo" : "Bekreftelseskoder sendt via e-post er gyldige i 10 minutter.",
+    "SubtitlePhoneOne" : "Enter the code we sent to the phone number on your profile",
+    "SubtitlePhoneTwo" : "Bekreftelseskoder sendt via telefon er gyldige i 10 minutter.",
+    "didntReceiveCode" : "Mottok du ingen kode?",
+    "didntReceiveCodeSubtitle" : "Hvis du ikke har mottatt en kode etter noen minutter, kan du be om en ny.",
+    "requestCode" : "BE OM NY KODE",
+    "stillHaventHeardBack" : "Hvis du fortsatt ikke har hørt fra oss, kan det være lurt å kontrollere at du har angitt riktig bruker-ID.",
+    "ADAriaLable" : "Bekreftelseskodesiffer",
+    "tooltipLable" : "You will not be asked for a verification code for this device in the future"
+  },
+  "otpForm" : {
+    "rememberMeOnthisDevice" : "Stol på denne enheten i fremtiden",
+    "submitBtn" : "SEND INN",
+    "enterSecurityCode" : "Skriv inn sikkerhetskoden",
+    "codeRequired" : "En 6-sifret kode kreves.",
+    "reenterOrRequestNewCode" : "Koden er feil eller har utløpt. Skriv inn koden på nytt eller be om en ny kode."
+  },
+  "error" : {
+    "functionalErr" : "We are having trouble establishing a connection. Please refresh the page."
+  }
+}

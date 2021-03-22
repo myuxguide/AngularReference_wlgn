@@ -1,0 +1,8 @@
+{
+  "oauth": {
+    "host": "apidev.idev.fedex.com",
+    "grant_type": "client_credentials",
+    "client_id": "l705de657b50f04802962697cdf9f0a9e7",
+    "client_secret": "822bc8dbdc5e44cc978a0f5e16f2d747"
+  }
+}

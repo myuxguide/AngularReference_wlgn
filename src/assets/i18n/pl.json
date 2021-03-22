@@ -1,0 +1,80 @@
+{
+  "title" : "Zaloguj się",
+  "customerSupport" : {
+    "needHelp" : "Potrzebujesz pomocy?",
+    "supportLink" : "WSPARCIE KLIENTA"
+  },
+  "loginCredentials" : {
+    "userIDLabel" : "identyfikator użytkownika",
+    "userIDSubTitle" : "Nie posiadasz identyfikatora użytkownika?",
+    "createOne" : "Utwórz go.",
+    "credentialsHeader" : "Aby się zalogować wprowadź identyfikator użytkownika oraz hasło",
+    "rememberMeLabel" : "Zapamiętaj mnie na tym urządzeniu",
+    "loginButton" : "Zaloguj się",
+    "passwordLabel" : "hasło",
+    "forgotCredentialsLink" : "Nie pamiętasz identyfikatora użytkownika lub hasła?",
+    "errorRequired" : "Do zalogowania się wymagane jest podanie zarówno identyfikatora użytkownika, jak i hasła.",
+    "errorIncorrect" : "Niepoprawny login. Kombinacja identyfikatora użytkownika i hasła jest niepoprawna lub konto zostało zablokowane. Spróbuj ponownie lub zresetuj hasło.",
+    "showBtn" : "POKAŻ",
+    "hideBtn" : "UKRYJ"
+  },
+  "userID" : {
+    "loginButton" : "ZALOGUJ SIĘ"
+  },
+  "credential" : {
+    "userId" : "IDENTYFIKATOR UŻYTKOWNIKA",
+    "password" : "HASŁO"
+  },
+  "accountLocked" : {
+    "header" : "Twoje konto jest tymczasowo zablokowane.",
+    "subtitle" : "Przekroczono maksymalną liczbę nieudanych prób logowania. Zablokowaliśmy Twoje konto, aby zapobiec nieautoryzowanemu dostępowi. Możesz ponownie spróbować się zalogować za <b>godzinę<b>.",
+    "needHelp" : "Potrzebujesz pomocy w uzyskaniu dostępu do swojego konta?",
+    "forgotButton" : "NIE PAMIĘTASZ SWOJEGO LOGINU LUB HASŁA?",
+    "passwordLabel" : "hasło"
+  },
+  "forgotUserId" : {
+    "forgotButton" : "NIE PAMIĘTASZ SWOJEGO LOGINU LUB HASŁA?"
+  },
+  "chooseVerifyMethod" : {
+    "verifyMethodTitle" : "Wybierz metodę weryfikacji",
+    "verifyMethodSubtitle" : "Wyślemy Ci kod weryfikacyjny, korzystając z informacji kontaktowych na Twoim profilu.",
+    "emailMethod" : "EMAIL",
+    "smsTextMethod" : "SMS",
+    "phoneCallMethod" : "ROZMOWA TELEFONICZNA",
+    "confirmButton" : "POTWIERDŹ",
+    "cancelButton" : "ANULUJ"
+  },
+  "verifyOptions" : {
+    "verifyOptionsLink" : "UŻYJ INNEJ METODY WERYFIKACJI"
+  },
+  "fail" : {
+    "header" : "Przekroczono liczbę dozwolonych prób weryfikacji.",
+    "tryAgainButton" : "SPRÓBUJ PONOWNIE"
+  },
+  "verifyYourIdentity" : {
+    "verifyYourIdentityHeader" : "Potwierdź swoją tożsamość",
+    "verifyOptionsLink" : "UŻYJ INNEJ METODY WERYFIKACJI",
+    "SubtitleNumberOne" : "Wpisz kod, który wysłaliśmy pod numer podany w Twoim profilu",
+    "SubtitleNumberTwo" : "Kody weryfikacyjne przesyłane w SMS-ach są ważne przez 10 minut.",
+    "SubtitleCallOne" : "Enter the code we sent to the email on your profile",
+    "SubtitleCallTwo" : "Kody weryfikacyjne przesyłane w wiadomościach e-mail są ważne przez 10 minut.",
+    "SubtitlePhoneOne" : "Enter the code we sent to the phone number on your profile",
+    "SubtitlePhoneTwo" : "Kody weryfikacyjne otrzymane podczas rozmów telefonicznych są ważne przez 10 minut.",
+    "didntReceiveCode" : "Nie otrzymałeś kodu?",
+    "didntReceiveCodeSubtitle" : "Jeśli nie otrzymasz kodu w ciągu kilku minut, możesz poprosić o nowy.",
+    "requestCode" : "POPROŚ O NOWY KOD",
+    "stillHaventHeardBack" : "Jeśli nadal nie otrzymałeś od nas wiadomości, sprawdź, czy podany przez Ciebie identyfikator użytkownika jest poprawny.",
+    "ADAriaLable" : "Cyfra kodu weryfikacyjnego",
+    "tooltipLable" : "You will not be asked for a verification code for this device in the future"
+  },
+  "otpForm" : {
+    "rememberMeOnthisDevice" : "Ufaj temu urządzeniu w przyszłości",
+    "submitBtn" : "PRZEŚLIJ",
+    "enterSecurityCode" : "Wprowadź kod bezpieczeństwa",
+    "codeRequired" : "Wymagany jest 6-cyfrowy kod.",
+    "reenterOrRequestNewCode" : "Kod jest nieprawidłowy lub wygasł. Wprowadź kod ponownie lub poproś o nowy."
+  },
+  "error" : {
+    "functionalErr" : "We are having trouble establishing a connection. Please refresh the page."
+  }
+}

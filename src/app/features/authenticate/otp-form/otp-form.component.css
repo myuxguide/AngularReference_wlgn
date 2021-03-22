@@ -1,0 +1,15 @@
+/* css for position relative */
+.wlgn-relative {
+    position: relative;
+  }
+  
+  /* css for all devices */
+  .wlgn-tooltip {
+    min-width: 26% !important;
+    right: 0;
+    top: -22px;
+  }
+  
+  #notifications-label {
+    position: absolute;
+  }

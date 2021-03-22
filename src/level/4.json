@@ -1,0 +1,7 @@
+{
+  "env": {
+    "host": "wwwstress.dmz.idev.fedex.com",
+    "mock_host": "https://mock.host.com",
+    "mock": false
+  }
+}

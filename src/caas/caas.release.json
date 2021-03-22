@@ -1,0 +1,7 @@
+{
+  "host": "wwwdrt.idev.fedex.com",
+  "commoncore": false,
+  "loglevel": "WARN",
+  "adobelaunch": false,
+  "reloadlocale": false
+}

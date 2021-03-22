@@ -1,0 +1,17 @@
+{
+  "endpoints": {
+    "oauth": {
+      "url": "/auth/oauth/v2/token",
+      "timeout": 8000,
+      "retry": 1
+    }
+  },
+  "links": {
+    "customerSupportUrl": "/${locale}/customer-support.html",
+    "createAccountUrl": "/${locale}/create-account.html",
+    "wupr": "/forgot-login-password/",
+    "homeUrl": "/${locale}/home.html",
+    "gdlUrl": "/gdl/gdl-fedex.js"
+  },
+  "decoupleFlag": false
+}

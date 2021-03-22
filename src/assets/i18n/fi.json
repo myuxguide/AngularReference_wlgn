@@ -1,0 +1,80 @@
+{
+  "title" : "Kirjaudu",
+  "customerSupport" : {
+    "needHelp" : "Tarvitsetko ohjeita?",
+    "supportLink" : "ASIAKASTUKI"
+  },
+  "loginCredentials" : {
+    "userIDLabel" : "käyttäjätunnuksesi",
+    "userIDSubTitle" : "Eikö sinulla ole käyttäjätunnusta?",
+    "createOne" : "Luo sellainen.",
+    "credentialsHeader" : "Kirjaudu sisään antamalla käyttäjätunnus ja salasana",
+    "rememberMeLabel" : "Muista minut tällä laitteella",
+    "loginButton" : "Kirjaudu",
+    "passwordLabel" : "salasana",
+    "forgotCredentialsLink" : "Unohditko käyttäjätunnuksesi tai salasanasi?",
+    "errorRequired" : "Sekä käyttäjätunnus että salasana vaaditaan sisäänkirjautumiseen.",
+    "errorIncorrect" : "Virheelliset kirjautumistiedot. Joko käyttäjätunnuksen ja salasanan yhdistelmä on väärä tai tili on lukittu. Yritä uudelleen tai palauta salasanasi.",
+    "showBtn" : "NÄYTÄ",
+    "hideBtn" : "PIILOTA"
+  },
+  "userID" : {
+    "loginButton" : "KIRJAUDU SISÄÄN"
+  },
+  "credential" : {
+    "userId" : "KÄYTTÄJÄTUNNUS",
+    "password" : "SALASANA"
+  },
+  "accountLocked" : {
+    "header" : "Asiakasnumerosi on väliaikaisesti lukittu.",
+    "subtitle" : "Olet ylittänyt epäonnistuneiden kirjausyritysten enimmäismäärän. Lukitsimme asiakasnumerosi luvattoman käytön estämiseksi. Voit yrittää kirjautua uudelleen sisään <b>1 tunnin<b> kuluttua.",
+    "needHelp" : "Tarvitsetko apua asiakasnumeroosi pääsyssä?",
+    "forgotButton" : "UNOHDITKO KÄYTTÄJÄTUNNUKSESI TAI SALASANASI?",
+    "passwordLabel" : "salasana"
+  },
+  "forgotUserId" : {
+    "forgotButton" : "UNOHDITKO KÄYTTÄJÄTUNNUKSESI TAI SALASANASI?"
+  },
+  "chooseVerifyMethod" : {
+    "verifyMethodTitle" : "Valitse vahvistustapa",
+    "verifyMethodSubtitle" : "Lähetämme sinulle vahvistuskoodin profiilissasi olevien yhteystietojen mukaan.",
+    "emailMethod" : "EMAIL",
+    "smsTextMethod" : "TEKSTIVIESTIN TEKSTI",
+    "phoneCallMethod" : "PUHELU",
+    "confirmButton" : "VAHVISTA",
+    "cancelButton" : "PERUUTA"
+  },
+  "verifyOptions" : {
+    "verifyOptionsLink" : "KÄYTÄ TOISTA VAHVISTUSKEINOA"
+  },
+  "fail" : {
+    "header" : "Olet ylittänyt tarkistusyritysten sallitun enimmäismäärän.",
+    "tryAgainButton" : "YRITÄ UUDELLEEN"
+  },
+  "verifyYourIdentity" : {
+    "verifyYourIdentityHeader" : "Vahvista henkilöllisyytesi",
+    "verifyOptionsLink" : "KÄYTÄ TOISTA VAHVISTUSKEINOA",
+    "SubtitleNumberOne" : "Syötä profiilissasi annettuun numeroon tekstiviestillä lähettämämme koodi",
+    "SubtitleNumberTwo" : "Tekstiviestillä lähetettävät vahvistuskoodit ovat voimassa 10 minuutin ajan.",
+    "SubtitleCallOne" : "Syötä profiilissasi annettuun sähköpostiosoitteeseen lähettämämme koodi",
+    "SubtitleCallTwo" : "Sähköpostitse lähetettävät vahvistuskoodit ovat voimassa 10 minuutin ajan.",
+    "SubtitlePhoneOne" : "Syötä profiilissasi annettuun puhelinnumeroon lähettämämme koodi",
+    "SubtitlePhoneTwo" : "Puhelulla lähetettävät vahvistuskoodit ovat voimassa 10 minuutin ajan.",
+    "didntReceiveCode" : "Etkö saanut koodia?",
+    "didntReceiveCodeSubtitle" : "Jos et saa koodia muutaman minuutin kuluessa, voit pyytää uutta koodia.",
+    "requestCode" : "PYYDÄ UUSI KOODI",
+    "stillHaventHeardBack" : "Jos et ole vieläkään kuullut meistä, kannattaa tarkistaa, että olet antanut oikean käyttäjätunnuksen.",
+    "ADAriaLable" : "Vahvistuskoodin numero",
+    "tooltipLable" : "You will not be asked for a verification code for this device in the future"
+  },
+  "otpForm" : {
+    "rememberMeOnthisDevice" : "Luota tähän laitteeseen jatkossa",
+    "submitBtn" : "LÄHETÄ",
+    "enterSecurityCode" : "Anna turvakoodi",
+    "codeRequired" : "6-numeroinen koodi vaaditaan.",
+    "reenterOrRequestNewCode" : "Koodi on väärä tai vanhentunut. Anna koodi uudelleen tai pyydä uutta koodia."
+  },
+  "error" : {
+    "functionalErr" : "We are having trouble establishing a connection. Please refresh the page."
+  }
+}

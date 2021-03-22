@@ -1,0 +1,96 @@
+{
+  "name": "wlgn",
+  "version": "0.0.0",
+  "description": "WLGN",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.prod.fedex.com/APP3537405/wlgn.git"
+  },
+  "scripts": {
+    "ng": "ng",
+    "start": "npm run start:ssl",
+    "start:ssl": "ng serve --host=0.0.0.0 --disableHostCheck=true --port=443 --ssl=true --baseHref=/",
+    "build": "node version.js && ng build --prod --base-href ./",
+    "test": "ng test --watch=false --codeCoverage=true",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "cm": "git-cz",
+    "cz": "git-cz",
+    "start:downloadWireMock": "(if not exist tmp mkdir tmp) && curl -o tmp/wiremock.jar --proxy http://internet.proxy.fedex.com:3128 https://repo1.maven.org/maven2/com/github/tomakehurst/wiremock-standalone/2.25.1/wiremock-standalone-2.25.1.jar",
+    "start:recordmock": "java -jar tmp/wiremock.jar --global-response-templating --port 9002 --proxy-all=https://apidrt.idev.fedex.com --enable-browser-proxying --verbose --preserve-host-header --record-mappings --proxy-via internet.proxy.fedex.com:3128 --root-dir ./mock",
+    "start:playbackmock": "java -jar tmp/wiremock.jar --global-response-templating --port 9002 --verbose --root-dir ./mock",
+    "e2e:cypress": "cypress run --headed --browser chrome -C cypress/cypress_config/cypress.json",
+    "All_Tests": "cypress run --spec --browser chrome -C cypress/fixtures/testdata.json",
+    "e2e:cypress:headless": "cypress run --headless --browser chrome -C cypress/cypress_config/cypress.json",
+    "cypress:run:local": "cypress open",
+    "Functional_Testing": "cypress run --spec cypress/integration/Functional_Testing/Login_CredentialsPage_Func.ts --browser chrome -C cypress/fixtures/testdata.json",
+    "UI_Testing": "cypress run --spec cypress/integration/UI_Testing/Login_CredentialsPage_UI.ts --browser chrome -C cypress/fixtures/testdata.json",
+    "EndToEnd_Testing": "cypress run --spec cypress/integration/EndToEnd_Testing/EndToEnd_Testing.ts --browser chrome -C cypress/fixtures/testdata.json"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "~9.1.12",
+    "@angular/common": "~9.1.12",
+    "@angular/compiler": "~9.1.12",
+    "@angular/core": "~9.1.12",
+    "@angular/forms": "~9.1.12",
+    "@angular/platform-browser": "~9.1.12",
+    "@angular/platform-browser-dynamic": "~9.1.12",
+    "@angular/router": "~9.1.12",
+    "@fedex/caas": "^3.9.3",
+    "@fedex/common-core": "^2.60.0",
+    "@ngx-translate/core": "^11.0.1",
+    "@ngx-translate/http-loader": "^4.0.0",
+    "bufferutil": "^4.0.1",
+    "classlist.js": "^1.1.20150312",
+    "cypress": "4.8.0",
+    "cypress-multi-reporters": "^1.4.0",
+    "mocha": "^8.2.1",
+    "mochawesome": "^6.2.1",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^5.1.0",
+    "html-webpack-plugin": "^2.21.0",
+    "ngx-cookie-service": "^2.4.0",
+    "ngx-translate-testing": "^5.0.0",
+    "rxjs": "~6.5.4",
+    "tslib": "^1.10.0",
+    "utf-8-validate": "^5.0.2",
+    "zone.js": "~0.10.2",
+    "@fedex/global-data-layer-client": "^3.1.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~0.901.12",
+    "@angular/cli": "~9.1.12",
+    "@angular/compiler-cli": "~9.1.12",
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "@types/node": "^12.11.1",
+    "@types/jasmine": "~3.5.0",
+    "@types/jasminewd2": "~2.0.3",
+    "codelyzer": "^5.1.2",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^4.3.0",
+    "jasmine-core": "~3.5.0",
+    "jasmine-spec-reporter": "~4.2.1",
+    "karma": "~5.0.0",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage-istanbul-reporter": "~2.1.0",
+    "karma-jasmine": "~3.0.1",
+    "karma-jasmine-html-reporter": "^1.4.2",
+    "protractor": "~7.0.0",
+    "ts-node": "~8.3.0",
+    "tslint": "~6.1.0",
+    "typescript": "~3.8.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "npm run lint"
+    }
+  }
+}

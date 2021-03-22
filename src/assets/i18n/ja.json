@@ -1,0 +1,80 @@
+{
+  "title" : "ログイン",
+  "customerSupport" : {
+    "needHelp" : "お困りですか？",
+    "supportLink" : "カスタマーサポート"
+  },
+  "loginCredentials" : {
+    "userIDLabel" : "ユーザーID",
+    "userIDSubTitle" : "ユーザーIDをお持ちですか？",
+    "createOne" : "IDを作る",
+    "credentialsHeader" : "ユーザーIDとパスワードを入力してログインしてください。",
+    "rememberMeLabel" : "このデバイスにアカウントを記憶する",
+    "loginButton" : "ログイン",
+    "passwordLabel" : "パスワード",
+    "forgotCredentialsLink" : "ユーザーIDまたはパスワードを忘れましたか?",
+    "errorRequired" : "ログインするにはユーザーIDとパスワードが必要です",
+    "errorIncorrect" : "ログイン情報が正しくありません。ユーザー ID とパスワードの組み合わせが間違っているか、アカウントがロックされています。もう一度お試しいただくか、パスワードをリセットしてください。",
+    "showBtn" : "表示する",
+    "hideBtn" : "非表示にする"
+  },
+  "userID" : {
+    "loginButton" : "ログイン"
+  },
+  "credential" : {
+    "userId" : "ユーザーID",
+    "password" : "パスワード"
+  },
+  "accountLocked" : {
+    "header" : "アカウントを一時的にロックしました。",
+    "subtitle" : "ログインの最大試行回数を超過しました。不正アクセスを防ぐために、アカウントをロックしました。<b>1時間後に再度ログインしてください。<b>",
+    "needHelp" : "アカウントにアクセスできませんか？サポートを希望されますか？",
+    "forgotButton" : "ユーザーIDまたはパスワードをお忘れですか？",
+    "passwordLabel" : "パスワード"
+  },
+  "forgotUserId" : {
+    "forgotButton" : "ユーザーIDまたはパスワードをお忘れですか？"
+  },
+  "chooseVerifyMethod" : {
+    "verifyMethodTitle" : "確認方法を選択する",
+    "verifyMethodSubtitle" : "プロファイルの連絡先情報を使用して確認コードをお送りします。",
+    "emailMethod" : "EMAIL",
+    "smsTextMethod" : "SMSテキスト",
+    "phoneCallMethod" : "電話",
+    "confirmButton" : "確認",
+    "cancelButton" : "キャンセル"
+  },
+  "verifyOptions" : {
+    "verifyOptionsLink" : "別の検証方法を試す"
+  },
+  "fail" : {
+    "header" : "許容される確認試行回数を超過しました。",
+    "tryAgainButton" : "もう一度やり直してください"
+  },
+  "verifyYourIdentity" : {
+    "verifyYourIdentityHeader" : "本人確認をしてください。",
+    "verifyOptionsLink" : "別の検証方法を試す",
+    "SubtitleNumberOne" : "プロファイルに記載されている番号にテキスト送信したコードを入力してください",
+    "SubtitleNumberTwo" : "テキストメッセージで送信された確認コードは10分間有効です。",
+    "SubtitleCallOne" : "プロファイルに記載されているEメールに送信したコードを入力してください",
+    "SubtitleCallTwo" : "Eメールで送信された確認コードは10分間有効です。",
+    "SubtitlePhoneOne" : "プロファイルに記載されている電話番号に送信したコードを入力してください",
+    "SubtitlePhoneTwo" : "電話に送信された確認コードは10分間有効です。",
+    "didntReceiveCode" : "コードをお受取りされていませんか？",
+    "didntReceiveCodeSubtitle" : "数分経ってもコードが届かない場合は、新しいコードを要求できます。",
+    "requestCode" : "新しいコードをリクエストする",
+    "stillHaventHeardBack" : "まだお受取りでない場合は、入力されたユーザーIDが正しいかどうかお確かめください。",
+    "ADAriaLable" : "確認コードの桁",
+    "tooltipLable" : "You will not be asked for a verification code for this device in the future"
+  },
+  "otpForm" : {
+    "rememberMeOnthisDevice" : "今後もこのデバイスを信頼する",
+    "submitBtn" : "送信",
+    "enterSecurityCode" : "セキュリティコードを入力する",
+    "codeRequired" : "必須の6桁コード。",
+    "reenterOrRequestNewCode" : "コードが誤っているか、有効期限が切れています。コードを再入力するか、新しいコードを要求してください。"
+  },
+  "error" : {
+    "functionalErr" : "We are having trouble establishing a connection. Please refresh the page."
+  }
+}

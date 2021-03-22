@@ -1,0 +1,80 @@
+{
+  "title" : "Bejelentkezés",
+  "customerSupport" : {
+    "needHelp" : "Segítségre van szüksége?",
+    "supportLink" : "ÜGYFÉLSZOLGÁLAT"
+  },
+  "loginCredentials" : {
+    "userIDLabel" : "felhasználói azonosító",
+    "userIDSubTitle" : "Nincs felhasználói azonosítója?",
+    "createOne" : "Hozzon létre egyet.",
+    "credentialsHeader" : "Felhasználói azonosítóját és jelszavát megadva jelentkezzen be",
+    "rememberMeLabel" : "Emlékezzen rám ezen az eszközön",
+    "loginButton" : "Bejelentkezés",
+    "passwordLabel" : "jelszó",
+    "forgotCredentialsLink" : "Elfelejtette felhasználói azonosítóját vagy jelszavát?",
+    "errorRequired" : "Felhasználói azonosító és jelszó is szükséges a bejelentkezéshez.",
+    "errorIncorrect" : "Helytelen bejelentkezési kísérlet. Vagy helytelen a felhasználói azonosító + jelszó kombináció, vagy zárolva van az ügyfélszámla. Kérjük, próbálja meg újra, vagy állítsa vissza a jelszavát.",
+    "showBtn" : "MEGJELENÍTÉS",
+    "hideBtn" : "ELREJTÉS"
+  },
+  "userID" : {
+    "loginButton" : "BEJELENTKEZÉS"
+  },
+  "credential" : {
+    "userId" : "FELHASZNÁLÓI AZONOSÍTÓ",
+    "password" : "JELSZÓ"
+  },
+  "accountLocked" : {
+    "header" : "A fiókja ideiglenesen zárolva van.",
+    "subtitle" : "Túllépte a sikertelen bejelentkezés próbálkozásainak megengedett maximális számát. Zároltuk a fiókját a jogosulatlan hozzáférés megelőzése érdekében. Megpróbálhat újra belépni <b>1 óra múlva.<b>",
+    "needHelp" : "Segítségre van szüksége, hogy hozzáférjen a fiókjához?",
+    "forgotButton" : "ELFELEJTETTE FELHASZNÁLÓI AZONOSÍTÓJÁT VAGY JELSZAVÁT?",
+    "passwordLabel" : "jelszó"
+  },
+  "forgotUserId" : {
+    "forgotButton" : "ELFELEJTETTE FELHASZNÁLÓI AZONOSÍTÓJÁT VAGY JELSZAVÁT?"
+  },
+  "chooseVerifyMethod" : {
+    "verifyMethodTitle" : "Ellenőrzési mód kiválasztása",
+    "verifyMethodSubtitle" : "Küldeni fogunk Önnek egy ellenőrzési kódot a profilján megadott kapcsolattartási címre.",
+    "emailMethod" : "EMAIL",
+    "smsTextMethod" : "SMS SZÖVEGE",
+    "phoneCallMethod" : "TELEFONHÍVÁS",
+    "confirmButton" : "MEGERŐSÍTÉS",
+    "cancelButton" : "MÉGSE"
+  },
+  "verifyOptions" : {
+    "verifyOptionsLink" : "HASZNÁLJON MÁSIK HITELESÍTÉSI MÓDOT"
+  },
+  "fail" : {
+    "header" : "Ön túllépte a jóváhagyási próbálkozások megengedett maximális számát.",
+    "tryAgainButton" : "PRÓBÁLJA MEG ÚJRA"
+  },
+  "verifyYourIdentity" : {
+    "verifyYourIdentityHeader" : "Igazolja személyazonosságát",
+    "verifyOptionsLink" : "HASZNÁLJON MÁSIK HITELESÍTÉSI MÓDOT",
+    "SubtitleNumberOne" : "Adja meg azt a kódot, amelyet a profiljában lévő számra küldtünk.",
+    "SubtitleNumberTwo" : "Az üzenetben küldött ellenőrzési kódok 10 percig érvényesek.",
+    "SubtitleCallOne" : "Adja meg azt a kódot, amelyet a profiljában lévő e-mail-címre küldtünk",
+    "SubtitleCallTwo" : "Az e-mailben küldött ellenőrzési kódok 10 percig érvényesek.",
+    "SubtitlePhoneOne" : "Adja meg azt a kódot, amelyet a profiljában lévő telefonszámra küldtünk",
+    "SubtitlePhoneTwo" : "A telefonhívással küldött ellenőrzési kódok 10 percig érvényesek.",
+    "didntReceiveCode" : "Nem kapott kódot?",
+    "didntReceiveCodeSubtitle" : "Ha néhány percen belül nem kapott kódot, újat kérhet.",
+    "requestCode" : "ÚJ KÓD IGÉNYLÉSE",
+    "stillHaventHeardBack" : "Ha továbbra sem kapott kódot, ellenőrizze, hogy a helyes felhasználóazonosítót adta-e meg.",
+    "ADAriaLable" : "Ellenőrzőkód számjegye",
+    "tooltipLable" : "You will not be asked for a verification code for this device in the future"
+  },
+  "otpForm" : {
+    "rememberMeOnthisDevice" : "Az eszköz megbízhatóként kezelése a jövőben",
+    "submitBtn" : "KÜLDÉS",
+    "enterSecurityCode" : "Biztonsági kód megadása",
+    "codeRequired" : "Adja meg a 6 számjegyű kódot.",
+    "reenterOrRequestNewCode" : "A kód hibás vagy lejárt. Kérjük, adja meg a kódot újra, vagy kérjen újat."
+  },
+  "error" : {
+    "functionalErr" : "We are having trouble establishing a connection. Please refresh the page."
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "title" : "로그인",
+  "customerSupport" : {
+    "needHelp" : "도움이 필요하십니까?",
+    "supportLink" : "고객 지원"
+  },
+  "loginCredentials" : {
+    "userIDLabel" : "사용자 ID",
+    "userIDSubTitle" : "아직 사용자 ID가 없으신가요?",
+    "createOne" : "사용자 ID를 생성하십시오.",
+    "credentialsHeader" : "로그인하려면 사용자 ID와 비밀번호를 입력하십시오.",
+    "rememberMeLabel" : "이 장치에 ID 및 비밀번호 저장",
+    "loginButton" : "로그인",
+    "passwordLabel" : "비밀번호",
+    "forgotCredentialsLink" : "사용자 ID나 비밀번호를 잊어버리셨습니까?",
+    "errorRequired" : "로그인하려면 사용자 ID와 비밀번호를 모두 입력해야 합니다.",
+    "errorIncorrect" : "로그인이 잘못되었습니다. 사용자 ID 또는 비밀번호가 틀렸거나 고객번호가 잠긴 상태입니다. 다시 시도하거나 비밀번호를 재설정하십시오.",
+    "showBtn" : "표시",
+    "hideBtn" : "숨기기"
+  },
+  "userID" : {
+    "loginButton" : "로그인"
+  },
+  "credential" : {
+    "userId" : "사용자 ID",
+    "password" : "비밀번호"
+  },
+  "accountLocked" : {
+    "header" : "고객님의 고객번호가 일시적으로 잠겼습니다.",
+    "subtitle" : "최대 로그인 시도 실패 횟수가 초과되었습니다. 무단 액세스를 방지하기 위해 고객님의 고객번호가 잠금 처리됩니다. <b>1시간<b> 후에 다시 로그인을 시도하실 수 있습니다.",
+    "needHelp" : "고객번호에 대한 액세스 권한을 얻는 데 도움이 필요하십니까?",
+    "forgotButton" : "사용자 ID 또는 비밀번호를 잊어버습니까?",
+    "passwordLabel" : "비밀번호"
+  },
+  "forgotUserId" : {
+    "forgotButton" : "사용자 ID 또는 비밀번호를 잊으셨습니까?"
+  },
+  "chooseVerifyMethod" : {
+    "verifyMethodTitle" : "인증 방법 선택",
+    "verifyMethodSubtitle" : "프로필의 연락처 정보를 사용하여 인증 코드를 전송합니다.",
+    "emailMethod" : "EMAIL",
+    "smsTextMethod" : "SMS 문자 메시지",
+    "phoneCallMethod" : "전화 통화",
+    "confirmButton" : "확인",
+    "cancelButton" : "취소"
+  },
+  "verifyOptions" : {
+    "verifyOptionsLink" : "다른 확인 방법 사용"
+  },
+  "fail" : {
+    "header" : "허용된 인증 시도 횟수를 초과했습니다.",
+    "tryAgainButton" : "다시 시도"
+  },
+  "verifyYourIdentity" : {
+    "verifyYourIdentityHeader" : "본인 인증",
+    "verifyOptionsLink" : "다른 인증 방법 사용",
+    "SubtitleNumberOne" : "프로필에 기재된 전화번호로 보내드린 문자 메시지의 코드를 입력하십시오.",
+    "SubtitleNumberTwo" : "문자 메시지를 통해 보내드린 인증 코드는 10분 동안 유효합니다.",
+    "SubtitleCallOne" : "프로필에 기재된 이메일로 보내드린 코드를 입력하십시오.",
+    "SubtitleCallTwo" : "이메일을 통해 보내드린 인증 코드는 10분 동안 유효합니다.",
+    "SubtitlePhoneOne" : "프로필에 기재된 전화번호로 보내드린 코드를 입력하십시오.",
+    "SubtitlePhoneTwo" : "전화를 통해 보내드린 인증 코드는 10분 동안 유효합니다.",
+    "didntReceiveCode" : "코드를 받지 못하셨나요?",
+    "didntReceiveCodeSubtitle" : "몇 분이 지난 후에도 코드를 받지 못한 경우 새 코드를 요청할 수 있습니다.",
+    "requestCode" : "새 코드 요청",
+    "stillHaventHeardBack" : "아직 연락을 받지 못한 경우 사용자 ID를 올바르게 입력했는지 확인해보시기 바랍니다.",
+    "ADAriaLable" : "인증 코드 숫자",
+    "tooltipLable" : "You will not be asked for a verification code for this device in the future"
+  },
+  "otpForm" : {
+    "rememberMeOnthisDevice" : "앞으로 이 기기 신뢰",
+    "submitBtn" : "제출",
+    "enterSecurityCode" : "보안 코드 입력",
+    "codeRequired" : "6자리 숫자 코드를 입력해야 합니다.",
+    "reenterOrRequestNewCode" : "코드가 잘못 입력되었거나 만료되었습니다. 코드를 다시 입력하거나 새 코드를 요청하십시오."
+  },
+  "error" : {
+    "functionalErr" : "We are having trouble establishing a connection. Please refresh the page."
+  }
+}

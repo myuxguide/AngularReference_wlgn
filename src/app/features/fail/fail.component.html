@@ -1,0 +1,32 @@
+<!--Svg lock icon-->
+<div class="fdx-u-align--center">
+   <div class="fdx-o-grid__row fdx-o-grid__row--center fdx-u-mt--5 fdx-u-mb--5">
+      <svg class="fdx-c-icon fdx-o-grid__item--10 fdx-u-font-size--h3" aria-hidden="true">
+         <use xlink:href="#status_warning"></use>
+      </svg>
+   </div>
+
+   <!-- Adding title here -->
+   <div class="fdx-o-grid__row fdx-o-grid__row--center fdx-u-mt--5 fdx-u-mt--1@small">
+      <h1 class="fdx-c-header fdx-c-header--h2 fdx-c-header--h3@small-only fdx-u-mb--6 fdx-u-mb--1@small-only fdx-o-grid__item--10@small" id="fail-title">
+         {{ 'fail.header'|translate }}
+      </h1>
+   </div>
+
+   <!-- Adding Try again here -->
+   <div class="fdx-u-mb--6 fdx-u-mb--1@small-only">
+      <button id="try-again" tabindex="0" (click)="navigateToHomePage()" aria-label="Try Again"
+         class="fdx-c-button fdx-c-button--text fdx-u-cursor--pointer" aria-atomic="true" aria-live="assertive">
+         {{'fail.tryAgainButton'| translate}}</button>
+   </div>
+
+   <!-- add hr line here-->
+   <div class="fdx-o-grid__row fdx-o-grid__row--center">
+      <hr class="fdx-c-line fdx-c-line--default fdx-o-grid__item--10">
+   </div>
+
+   <!-- Adding customerSupport button here -->
+   <div class="fdx-u-mt--8 fdx-o-grid__item--12">
+      <wlgn-customer-support [hideText]="false"></wlgn-customer-support>
+   </div>
+</div>

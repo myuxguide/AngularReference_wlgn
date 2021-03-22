@@ -1,0 +1,80 @@
+{
+  "title" : "Iniciar sessão",
+  "customerSupport" : {
+    "needHelp" : "Precisa de ajuda?",
+    "supportLink" : "APOIO AO CLIENTE"
+  },
+  "loginCredentials" : {
+    "userIDLabel" : "ID de utilizador",
+    "userIDSubTitle" : "Não tem uma ID de utilizador?",
+    "createOne" : "Crie uma.",
+    "credentialsHeader" : "Introduza a sua ID de utilizador e palavra-passe para iniciar sessão",
+    "rememberMeLabel" : "Memorizar-me neste dispositivo",
+    "loginButton" : "Inicie sessão",
+    "passwordLabel" : "palavra-passe",
+    "forgotCredentialsLink" : "Esqueceu-se da ID de Utilizador ou da Palavra-passe?",
+    "errorRequired" : "A ID de utilizador e a palavra-passe são obrigatórias para iniciar sessão.",
+    "errorIncorrect" : "Início de sessão incorreto. A combinação de ID de utilizador ou palavra-passe está incorreta ou a conta foi bloqueada. Tente novamente ou reponha a sua palavra-passe.",
+    "showBtn" : "MOSTRAR",
+    "hideBtn" : "OCULTAR"
+  },
+  "userID" : {
+    "loginButton" : "INICIAR SESSÃO"
+  },
+  "credential" : {
+    "userId" : "ID DE UTILIZADOR",
+    "password" : "PALAVRA-PASSE"
+  },
+  "accountLocked" : {
+    "header" : "A sua conta foi temporariamente bloqueada.",
+    "subtitle" : "Excedeu o número máximo de tentativas de início de sessão sem sucesso. Bloqueámos a sua conta para impedir um acesso não autorizado. Pode tentar iniciar sessão novamente dentro de <b>1 hora.<b>",
+    "needHelp" : "Precisa de ajuda para aceder à sua conta?",
+    "forgotButton" : "ESQUECEU-SE DA ID DE UTILIZADOR OU DA PALAVRA-PASSE?",
+    "passwordLabel" : "palavra-passe"
+  },
+  "forgotUserId" : {
+    "forgotButton" : "ESQUECEU-SE DA ID DE UTILIZADOR OU DA PALAVRA-PASSE?"
+  },
+  "chooseVerifyMethod" : {
+    "verifyMethodTitle" : "Selecione um método de verificação",
+    "verifyMethodSubtitle" : "Iremos enviar um código de verificação através das informações de contacto no seu perfil.",
+    "emailMethod" : "E-MAIL",
+    "smsTextMethod" : "MENSAGEM DE TEXTO SMS",
+    "phoneCallMethod" : "CHAMADA TELEFÓNICA",
+    "confirmButton" : "CONFIRMAR",
+    "cancelButton" : "CANCELAR"
+  },
+  "verifyOptions" : {
+    "verifyOptionsLink" : "UTILIZAR UM MÉTODO DE VERIFICAÇÃO DIFERENTE"
+  },
+  "fail" : {
+    "header" : "Excedeu o número de tentativas permitidas de verificação.",
+    "tryAgainButton" : "TENTE NOVAMENTE"
+  },
+  "verifyYourIdentity" : {
+    "verifyYourIdentityHeader" : "Verificar a identidade",
+    "verifyOptionsLink" : "UTILIZAR UM MÉTODO DE VERIFICAÇÃO DIFERENTE",
+    "SubtitleNumberOne" : "Introduza o código que lhe enviámos por mensagem de texto para o número que está no seu perfil",
+    "SubtitleNumberTwo" : "Os códigos de verificação enviados por mensagem de texto serão válidos durante 10 minutos.",
+    "SubtitleCallOne" : "Introduza o código que lhe enviámos para o e-mail que está no seu perfil",
+    "SubtitleCallTwo" : "Os códigos de verificação enviados por e-mail serão válidos durante 10 minutos.",
+    "SubtitlePhoneOne" : "Introduza o código que lhe enviámos para o número de telefone que está no seu perfil",
+    "SubtitlePhoneTwo" : "Os códigos de verificação enviados por telefone serão válidos durante 10 minutos.",
+    "didntReceiveCode" : "Não recebeu nenhum código?",
+    "didntReceiveCodeSubtitle" : "Se não receber um código após alguns minutos, pode pedir um novo.",
+    "requestCode" : "PEDIR NOVO CÓDIGO",
+    "stillHaventHeardBack" : "Se ainda não recebeu nenhuma notificação da nossa parte, deve verificar se introduziu a ID de utilizador correta.",
+    "ADAriaLable" : "Dígitos do Código de Verificação",
+    "tooltipLable" : "You will not be asked for a verification code for this device in the future"
+  },
+  "otpForm" : {
+    "rememberMeOnthisDevice" : "Considerar este dispositivo fidedigno no futuro",
+    "submitBtn" : "SUBMETER",
+    "enterSecurityCode" : "Introduzir o código de segurança",
+    "codeRequired" : "É necessário um código de 6 dígitos.",
+    "reenterOrRequestNewCode" : "O código está incorreto ou expirou. Volte a introduzir o código ou peça um novo código."
+  },
+  "error" : {
+    "functionalErr" : "We are having trouble establishing a connection. Please refresh the page."
+  }
+}

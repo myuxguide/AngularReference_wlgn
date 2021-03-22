@@ -1,0 +1,80 @@
+{
+  "title" : "تسجيل الدخول",
+  "customerSupport" : {
+    "needHelp" : "تحتاج إلى المساعدة؟",
+    "supportLink" : "دعم العملاء"
+  },
+  "loginCredentials" : {
+    "userIDLabel" : "مُعرِّف المستخدم",
+    "userIDSubTitle" : "أليس لديك مُعرِّف مستخدم؟",
+    "createOne" : "أنشئ واحدًا.",
+    "credentialsHeader" : "أدخِل مُعرِّف المستخدم وكلمة المرور لتسجيل الدخول",
+    "rememberMeLabel" : "تذكّرني على هذا الجهاز",
+    "loginButton" : "تسجيل الدخول",
+    "passwordLabel" : "كلمة المرور",
+    "forgotCredentialsLink" : "هل نسيت مُعرِّف المستخدم أو كلمة المرور؟",
+    "errorRequired" : "مُعرِّف المستخدم وكلمة المرور مطلوبان لتسجيل الدخول.",
+    "errorIncorrect" : "تسجيل الدخول غير صحيح. من المحتمل أن تركيبة مُعرِّف المستخدم أو كلمة المرور غير صحيحة أو أنه قد تم قفل الحساب. يُرجى إعادة المحاولة أو إعادة تعيين كلمة المرور.",
+    "showBtn" : "إظهار",
+    "hideBtn" : "إخفاء"
+  },
+  "userID" : {
+    "loginButton" : "تسجيل الدخول"
+  },
+  "credential" : {
+    "userId" : "معرف المستخدم",
+    "password" : "كلمة المرور"
+  },
+  "accountLocked" : {
+    "header" : "تم قفل حسابك مؤقتًا.",
+    "subtitle" : "لقد تجاوزت الحد الأقصى لعدد محاولات تسجيل الدخول غير الناجحة. وقد قفلنا حسابك لمنع الوصول غير المصرح به. يمكنك محاولة تسجيل الدخول مرةً أخرى بعد <b>ساعة واحدة.<b>",
+    "needHelp" : "هل تحتاج إلى المساعدة في الوصول إلى حسابك؟",
+    "forgotButton" : "هل نسيت مُعرِّف المستخدم أو كلمة المرور؟",
+    "passwordLabel" : "كلمة المرور"
+  },
+  "forgotUserId" : {
+    "forgotButton" : "هل نسيت مُعرِّف المستخدم أو كلمة المرور؟"
+  },
+  "chooseVerifyMethod" : {
+    "verifyMethodTitle" : "اختر طريقة التحقق",
+    "verifyMethodSubtitle" : "سنرسل إليك رمزًا للتحقق، وذلك باستخدام معلومات التواصل المُحدّدة في ملفك الشخصي.",
+    "emailMethod" : "البريد الإلكتروني",
+    "smsTextMethod" : "رسالة نصية قصيرة",
+    "phoneCallMethod" : "مكالمة هاتفية",
+    "confirmButton" : "تأكيد",
+    "cancelButton" : "إلغاء"
+  },
+  "verifyOptions" : {
+    "verifyOptionsLink" : "استخدام طريقة تحقق أخرى"
+  },
+  "fail" : {
+    "header" : "لقد تجاوزت عدد محاولات التحقق المسموح بها.",
+    "tryAgainButton" : "أعد المحاولة"
+  },
+  "verifyYourIdentity" : {
+    "verifyYourIdentityHeader" : "تحقق من هويتك",
+    "verifyOptionsLink" : "استخدام طريقة تحقق أخرى",
+    "SubtitleNumberOne" : "أدخِل الرمز الذي أرسلناه إليك نصيًا على الرقم الوارد في ملفك التعريفي",
+    "SubtitleNumberTwo" : "تظل رموز التحقق التي يتم إرسالها عبر الرسالة النصية صالحةً لمدة 10 دقائق.",
+    "SubtitleCallOne" : "أدخِل الرمز الذي أرسلناه إليك عبر البريد الإلكتروني الوارد في ملفك التعريفي",
+    "SubtitleCallTwo" : "تظل رموز التحقق التي يتم إرسالها بالبريد الإلكتروني صالحةً لمدة 10 دقائق.",
+    "SubtitlePhoneOne" : "أدخِل الرمز الذي أرسلناه إليك على رقم الهاتف الوارد في ملفك التعريفي",
+    "SubtitlePhoneTwo" : "تظل رموز التحقق التي يتم إرسالها عبر الهاتف صالحةً لمدة 10 دقائق.",
+    "didntReceiveCode" : "ألم تستلم رمزًا؟",
+    "didntReceiveCodeSubtitle" : "إذا لم تتلقّ رمزًا بعد بضع دقائق، يمكنك طلب رمز جديد.",
+    "requestCode" : "اطلب رمزًا جديدًا",
+    "stillHaventHeardBack" : "إذا كان لم يصلك منّا أي رسائل، فربما عليك التحقق من إدخالك لمعرّف المستخدم الصحيح.",
+    "ADAriaLable" : "رقم رمز التحقق",
+    "tooltipLable" : "You will not be asked for a verification code for this device in the future"
+  },
+  "otpForm" : {
+    "rememberMeOnthisDevice" : "إدراج هذا الجهاز ضمن قائمة الأجهزة الموثوقة في المستقبل",
+    "submitBtn" : "إرسال\r",
+    "enterSecurityCode" : "أدخِل رمز الحماية",
+    "codeRequired" : "يلزم وجود رمز مكون من 6 أرقام.",
+    "reenterOrRequestNewCode" : "الرمز غير صحيح أو انتهت صلاحيته. يُرجى إعادة إدخال الرمز أو طلب رمز جديد."
+  },
+  "error" : {
+    "functionalErr" : "We are having trouble establishing a connection. Please refresh the page."
+  }
+}

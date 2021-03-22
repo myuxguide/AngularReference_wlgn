@@ -1,0 +1,7 @@
+{
+  "host": "www.fedex.com",
+  "commoncore": false,
+  "loglevel": "WARN",
+  "adobelaunch": true,
+  "reloadlocale": false
+}

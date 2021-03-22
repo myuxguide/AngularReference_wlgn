@@ -1,0 +1,80 @@
+{
+  "title" : "เข้าระบบ",
+  "customerSupport" : {
+    "needHelp" : "ต้องการความช่วยเหลือใช่หรือไม่",
+    "supportLink" : "แผนกบริการลูกค้า"
+  },
+  "loginCredentials" : {
+    "userIDLabel" : "ของคุณ",
+    "userIDSubTitle" : "ไม่มี ID ผู้ใช้ใช่หรือไม่",
+    "createOne" : "สร้าง ID ผู้ใช้",
+    "credentialsHeader" : "ป้อน ID ผู้ใช้และรหัสผ่านของคุณเพื่อเข้าสู่ระบบ",
+    "rememberMeLabel" : "จดจำฉันบนอุปกรณ์นี้",
+    "loginButton" : "เข้าสู่ระบบ",
+    "passwordLabel" : "รหัสผ่าน",
+    "forgotCredentialsLink" : "ลืม ID ผู้ใช้และรหัสผ่านของคุณใช่หรือไม่",
+    "errorRequired" : "ต้องมีทั้ง ID ผู้ใช้และรหัสผ่านเพื่อเข้าสู่ระบบ",
+    "errorIncorrect" : "การเข้าสู่ระบบไม่ถูกต้อง ID ผู้ใช้หรือรหัสผ่านไม่ถูกต้อง หรือบัญชีถูกล็อก กรุณาลองอีกครั้งหรือรีเซ็ตรหัสผ่านของคุณ",
+    "showBtn" : "แสดง",
+    "hideBtn" : "ซ่อน"
+  },
+  "userID" : {
+    "loginButton" : "เข้าสู่ระบบ"
+  },
+  "credential" : {
+    "userId" : "ID ผู้ใช้",
+    "password" : "รหัสผ่าน"
+  },
+  "accountLocked" : {
+    "header" : "บัญชีของคุณถูกล็อกชั่วคราว",
+    "subtitle" : "คุณเข้าสู่ระบบล้มเหลวเกินจำนวนสูงสุดแล้ว เราได้ล็อกบัญชีของคุณไว้เพื่อป้องกันการเข้าถึงโดยไม่ได้รับอนุญาต โดยคุณอาจลองเข้าสู่ระบบอีกครั้งในอีก <b>1 ชั่วโมง<b>",
+    "needHelp" : "ต้องการความช่วยเหลือในการเข้าถึงบัญชีของคุณใช่หรือไม่",
+    "forgotButton" : "ลืม ID ผู้ใช้หรือรหัสผ่านของคุณใช่หรือไม่",
+    "passwordLabel" : "รหัสผ่าน"
+  },
+  "forgotUserId" : {
+    "forgotButton" : "ลืม ID ผู้ใช้หรือรหัสผ่านของคุณใช่หรือไม่"
+  },
+  "chooseVerifyMethod" : {
+    "verifyMethodTitle" : "เลือกวิธีการตรวจสอบยืนยัน",
+    "verifyMethodSubtitle" : "เราจะส่งรหัสยืนยันให้คุณโดยใช้ข้อมูลติดต่อในโปรไฟล์ของคุณ",
+    "emailMethod" : "อีเมล",
+    "smsTextMethod" : "ข้อความ SMS",
+    "phoneCallMethod" : "โทรติดต่อ",
+    "confirmButton" : "ยืนยัน",
+    "cancelButton" : "ยกเลิก"
+  },
+  "verifyOptions" : {
+    "verifyOptionsLink" : "ใช้วิธียืนยันวิธีอื่น"
+  },
+  "fail" : {
+    "header" : "คุณพยายามยืนยันเกินจำนวนครั้งที่สามารถทำได้แล้ว",
+    "tryAgainButton" : "ลองอีกครั้ง"
+  },
+  "verifyYourIdentity" : {
+    "verifyYourIdentityHeader" : "ยืนยันตัวตนของคุณ",
+    "verifyOptionsLink" : "ใช้วิธียืนยันวิธีอื่น",
+    "SubtitleNumberOne" : "ระบุรหัสที่เราส่งข้อความไปยังหมายเลขตามโปรไฟล์ของคุณ",
+    "SubtitleNumberTwo" : "รหัสยืนยันที่ส่งผ่านทางข้อความมีอายุการใช้งาน 10 นาที",
+    "SubtitleCallOne" : "ระบุรหัสที่เราส่งข้อความไปยังอีเมลตามโปรไฟล์ของคุณ",
+    "SubtitleCallTwo" : "รหัสยืนยันที่ส่งผ่านทางอีเมลมีอายุการใช้งาน 10 นาที",
+    "SubtitlePhoneOne" : "ระบุรหัสที่เราส่งข้อความไปยังหมายเลขโทรศัพท์ตามโปรไฟล์ของคุณ",
+    "SubtitlePhoneTwo" : "รหัสยืนยันที่ส่งผ่านทางโทรศัพท์มีอายุการใช้งาน 10 นาที",
+    "didntReceiveCode" : "ยังไม่ได้รับรหัสใช่หรือไม่",
+    "didntReceiveCodeSubtitle" : "หากคุณยังไม่ได้รับรหัสในอีกสองถึงสามนาที คุณสามารถขอรหัสใหม่ได้",
+    "requestCode" : "ขอรหัสใหม่",
+    "stillHaventHeardBack" : "หากคุณยังไม่ได้รับการติดต่อจากเรา คุณอาจต้องตรวจสอบว่าคุณได้ระบุ ID ผู้ใช้ที่ถูกต้อง",
+    "ADAriaLable" : "เลขรหัสยืนยัน",
+    "tooltipLable" : "You will not be asked for a verification code for this device in the future"
+  },
+  "otpForm" : {
+    "rememberMeOnthisDevice" : "ไว้ใจอุปกรณ์นี้ในอนาคต",
+    "submitBtn" : "ส่ง",
+    "enterSecurityCode" : "ระบุรหัสรักษาความปลอดภัย",
+    "codeRequired" : "ต้องระบุรหัส 6 หลัก",
+    "reenterOrRequestNewCode" : "รหัสไม่ถูกต้องหรือหมดอายุ กรุณาระบุรหัสอีกครั้งหรือขอรหัสใหม่"
+  },
+  "error" : {
+    "functionalErr" : "We are having trouble establishing a connection. Please refresh the page."
+  }
+}

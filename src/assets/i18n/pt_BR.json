@@ -1,0 +1,80 @@
+{
+  "title" : "Login",
+  "customerSupport" : {
+    "needHelp" : "Precisa de ajuda?",
+    "supportLink" : "SUPORTE AO CLIENTE"
+  },
+  "loginCredentials" : {
+    "userIDLabel" : "ID de usuário",
+    "userIDSubTitle" : "Não tem uma ID de usuário?",
+    "createOne" : "Crie uma.",
+    "credentialsHeader" : "Digite sua ID de usuário e senha para fazer login",
+    "rememberMeLabel" : "Lembrar de mim neste dispositivo",
+    "loginButton" : "Efetuar login",
+    "passwordLabel" : "senha",
+    "forgotCredentialsLink" : "Esqueceu sua ID de usuário ou senha?",
+    "errorRequired" : "A ID de usuário e a senha são obrigatórias para fazer login.",
+    "errorIncorrect" : "Login incorreto. A combinação de ID de usuário ou senha está incorreta ou a conta foi bloqueada. Tente novamente ou redefina sua senha.",
+    "showBtn" : "EXIBIR",
+    "hideBtn" : "OCULTAR"
+  },
+  "userID" : {
+    "loginButton" : "EFETUAR LOGIN"
+  },
+  "credential" : {
+    "userId" : "ID DE USUÁRIO",
+    "password" : "SENHA"
+  },
+  "accountLocked" : {
+    "header" : "Sua conta está bloqueada temporariamente.",
+    "subtitle" : "Você excedeu o número máximo de tentativas falhas de login. Bloqueamos sua conta para evitar acesso não autorizado. Você pode tentar fazer login novamente em <b>1 hora.<b>",
+    "needHelp" : "Precisa de ajuda para acessar sua conta?",
+    "forgotButton" : "ESQUECEU SUA ID DE USUÁRIO OU SENHA?",
+    "passwordLabel" : "senha"
+  },
+  "forgotUserId" : {
+    "forgotButton" : "ESQUECEU SUA ID DE USUÁRIO OU SENHA?"
+  },
+  "chooseVerifyMethod" : {
+    "verifyMethodTitle" : "Escolha um método de verificação",
+    "verifyMethodSubtitle" : "Enviaremos um código de verificação usando as informações de contato de seu perfil.",
+    "emailMethod" : "EMAIL",
+    "smsTextMethod" : "MENSAGEM SMS",
+    "phoneCallMethod" : "LIGAÇÃO TELEFÔNICA",
+    "confirmButton" : "CONFIRMAR",
+    "cancelButton" : "CANCELAR"
+  },
+  "verifyOptions" : {
+    "verifyOptionsLink" : "USAR UM MÉTODO DE VERIFICAÇÃO DIFERENTE"
+  },
+  "fail" : {
+    "header" : "Você excedeu o número de tentativas de verificação permitidas.",
+    "tryAgainButton" : "TENTE NOVAMENTE"
+  },
+  "verifyYourIdentity" : {
+    "verifyYourIdentityHeader" : "Confirme sua identidade",
+    "verifyOptionsLink" : "USAR UM MÉTODO DE VERIFICAÇÃO DIFERENTE",
+    "SubtitleNumberOne" : "Enter the code we texted to the number on your profile",
+    "SubtitleNumberTwo" : "Códigos de verificação enviados por mensagem de texto são válidos por 10 minutos.",
+    "SubtitleCallOne" : "Enter the code we sent to the email on your profile",
+    "SubtitleCallTwo" : "Códigos de verificação enviados por e-mail são válidos por 10 minutos.",
+    "SubtitlePhoneOne" : "Enter the code we sent to the phone number on your profile",
+    "SubtitlePhoneTwo" : "Códigos de verificação enviados por ligação são válidos por 10 minutos.",
+    "didntReceiveCode" : "Não recebeu um código?",
+    "didntReceiveCodeSubtitle" : "Se você não receber um código após alguns minutos, peça um novo.",
+    "requestCode" : "SOLICITAR NOVO CÓDIGO",
+    "stillHaventHeardBack" : "Se você ainda não recebeu um código, verifique se inseriu a ID de usuário correta.",
+    "ADAriaLable" : "Código de verificação",
+    "tooltipLable" : "You will not be asked for a verification code for this device in the future"
+  },
+  "otpForm" : {
+    "rememberMeOnthisDevice" : "Trust this device in the future",
+    "submitBtn" : "ENVIAR",
+    "enterSecurityCode" : "Informar código de segurança",
+    "codeRequired" : "É obrigatório informar um código de 6 dígitos.",
+    "reenterOrRequestNewCode" : "Código incorreto ou expirado. Insira o código novamente ou peça um novo."
+  },
+  "error" : {
+    "functionalErr" : "We are having trouble establishing a connection. Please refresh the page."
+  }
+}

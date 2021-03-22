@@ -1,0 +1,7 @@
+{
+  "env": {
+    "host": "wwwdrt.idev.fedex.com",
+    "mock_host": "https://wlgn-wiremock-release.app.clwdev1.paas.fedex.com",
+    "mock": false
+  }
+}

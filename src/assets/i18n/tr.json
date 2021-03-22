@@ -1,0 +1,80 @@
+{
+  "title" : "Oturum Aç",
+  "customerSupport" : {
+    "needHelp" : "Yardım mı gerekli?",
+    "supportLink" : "MÜŞTERİ DESTEK"
+  },
+  "loginCredentials" : {
+    "userIDLabel" : "kullanıcı kodunuzdur",
+    "userIDSubTitle" : "Bir kullanıcı kimliğiniz yok mu?",
+    "createOne" : "Bir tane oluşturun.",
+    "credentialsHeader" : "Oturum açmak için kullanıcı kimliğinizi ve parolanızı girin",
+    "rememberMeLabel" : "Beni bu cihazda hatırla",
+    "loginButton" : "Oturum Aç",
+    "passwordLabel" : "parola",
+    "forgotCredentialsLink" : "Kullanıcı Kimliğinizi veya Parolanızı mı unuttunuz?",
+    "errorRequired" : "Oturum açmak için kullanıcı kimliği ve parolanın ikisi de gereklidir.",
+    "errorIncorrect" : "Oturum açma bilgileri yanlış. Kullanıcı kodu veya parola kombinasyonu yanlış ya da hesap kilitlenmiş. Lütfen daha sonra tekrar deneyin veya parolanızı sıfırlayın.",
+    "showBtn" : "GÖSTER",
+    "hideBtn" : "GİZLE"
+  },
+  "userID" : {
+    "loginButton" : "OTURUM AÇ"
+  },
+  "credential" : {
+    "userId" : "KULLANICI KODU",
+    "password" : "PAROLA"
+  },
+  "accountLocked" : {
+    "header" : "Hesabınız geçici olarak kilitlendi.",
+    "subtitle" : "Maksimum başarısız deneme sayısını aştınız. İzinsiz erişimi engellemek için hesabınızı kilitledik. <b>1 saat<b> içinde tekrar oturum açmayı deneyebilirsiniz.",
+    "needHelp" : "Hesabınıza erişimek için yardıma mı ihtiyacınız var?",
+    "forgotButton" : "KULLANICI KİMLİĞİNİZİ VEYA PAROLANIZI MI UNUTTUNUZ?",
+    "passwordLabel" : "parola"
+  },
+  "forgotUserId" : {
+    "forgotButton" : "KULLANICI KİMLİĞİNİZİ VEYA PAROLANIZI MI UNUTTUNUZ?"
+  },
+  "chooseVerifyMethod" : {
+    "verifyMethodTitle" : "Bir doğrulama yöntemi seçin",
+    "verifyMethodSubtitle" : "Profilinizdeki iletişim bilgisini kullanarak bir doğrulama kodu göndereceğiz.",
+    "emailMethod" : "E-POSTA",
+    "smsTextMethod" : "SMS METNİ",
+    "phoneCallMethod" : "TELEFON ARAMASI",
+    "confirmButton" : "ONAYLA",
+    "cancelButton" : "İPTAL"
+  },
+  "verifyOptions" : {
+    "verifyOptionsLink" : "BAŞKA BİR DOĞRULAMA YÖNTEMİ KULLANIN"
+  },
+  "fail" : {
+    "header" : "İzin verilen doğrulama girişi sayısını aştınız.",
+    "tryAgainButton" : "TEKRAR DENE"
+  },
+  "verifyYourIdentity" : {
+    "verifyYourIdentityHeader" : "Kimliğinizi doğrulayın",
+    "verifyOptionsLink" : "BAŞKA BİR DOĞRULAMA YÖNTEMİ KULLANIN",
+    "SubtitleNumberOne" : "Enter the code we texted to the number on your profile",
+    "SubtitleNumberTwo" : "Mesaj ile gönderilen doğrulama kodları 10 dakika geçerlidir.",
+    "SubtitleCallOne" : "Enter the code we sent to the email on your profile",
+    "SubtitleCallTwo" : "E-posta ile gönderilen doğrulama kodları 10 dakika geçerlidir.",
+    "SubtitlePhoneOne" : "Enter the code we sent to the phone number on your profile",
+    "SubtitlePhoneTwo" : "Telefon ile iletilen doğrulama kodları 10 dakika geçerlidir.",
+    "didntReceiveCode" : "Kod almadınız mı?",
+    "didntReceiveCodeSubtitle" : "Birkaç dakika içinde bir kod alamazsanız yeni bir kod isteyin.",
+    "requestCode" : "YENİ KOD İSTE",
+    "stillHaventHeardBack" : "Bizden henüz haber almadıysanız doğru kullanıcı kodunu girdiğinizden emin olun.",
+    "ADAriaLable" : "Doğrulama Kodu Hanesi",
+    "tooltipLable" : "You will not be asked for a verification code for this device in the future"
+  },
+  "otpForm" : {
+    "rememberMeOnthisDevice" : "Trust this device in the future",
+    "submitBtn" : "GÖNDER",
+    "enterSecurityCode" : "Güvenlik kodunu girin",
+    "codeRequired" : "6 haneli kod gerekli.",
+    "reenterOrRequestNewCode" : "Kod hatalı veya süresi dolmuş. Lütfen kodu tekrar girin veya yenisini isteyin."
+  },
+  "error" : {
+    "functionalErr" : "We are having trouble establishing a connection. Please refresh the page."
+  }
+}

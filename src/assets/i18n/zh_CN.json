@@ -1,0 +1,80 @@
+{
+  "title" : "登录",
+  "customerSupport" : {
+    "needHelp" : "需要帮助？",
+    "supportLink" : "客户支持"
+  },
+  "loginCredentials" : {
+    "userIDLabel" : "用户ID",
+    "userIDSubTitle" : "还没有用户ID？",
+    "createOne" : "请创建一个。",
+    "credentialsHeader" : "输入您的用户ID和密码以登录",
+    "rememberMeLabel" : "在此设备上记住我",
+    "loginButton" : "登录",
+    "passwordLabel" : "密码",
+    "forgotCredentialsLink" : "忘记了您的用户ID或密码？",
+    "errorRequired" : "需要用户ID及密码才能登录。",
+    "errorIncorrect" : "登录不正确。用户ID或密码组合不正确，或帐户被锁。请重试或重置您的密码。",
+    "showBtn" : "显示",
+    "hideBtn" : "隐藏"
+  },
+  "userID" : {
+    "loginButton" : "登录"
+  },
+  "credential" : {
+    "userId" : "用户ID",
+    "password" : "密码"
+  },
+  "accountLocked" : {
+    "header" : "您的帐户被暂时锁定。",
+    "subtitle" : "您已超出失败登录尝试的次数上限。为防止未经授权的访问，我们已锁定您的帐户。您可在<b>1小时<b>后再次尝试登录。",
+    "needHelp" : "需要获取您帐户访问权限的帮助吗？",
+    "forgotButton" : "忘记了您的用户ID或密码？",
+    "passwordLabel" : "密码"
+  },
+  "forgotUserId" : {
+    "forgotButton" : "忘记了您的用户ID或密码？"
+  },
+  "chooseVerifyMethod" : {
+    "verifyMethodTitle" : "选择验证方法",
+    "verifyMethodSubtitle" : "我们将使用您档案中的联系人信息，将验证码发送给您。",
+    "emailMethod" : "电子邮件",
+    "smsTextMethod" : "短信",
+    "phoneCallMethod" : "电话",
+    "confirmButton" : "确认",
+    "cancelButton" : "取消"
+  },
+  "verifyOptions" : {
+    "verifyOptionsLink" : "使用其他验证方法"
+  },
+  "fail" : {
+    "header" : "您已超出允许的验证尝试的次数。",
+    "tryAgainButton" : "请重试"
+  },
+  "verifyYourIdentity" : {
+    "verifyYourIdentityHeader" : "验证您的身份",
+    "verifyOptionsLink" : "使用其他验证方法",
+    "SubtitleNumberOne" : "输入我们通过短信发送到您档案上所填写的电话号码的验证码",
+    "SubtitleNumberTwo" : "通过短信发送的验证码将在10分钟后失效。",
+    "SubtitleCallOne" : "输入我们发送到您档案上所填写的电子邮件的验证码",
+    "SubtitleCallTwo" : "通过电子邮件发送的验证码将在10分钟后失效。",
+    "SubtitlePhoneOne" : "输入我们发送到您档案上所填写的电话号码的验证码",
+    "SubtitlePhoneTwo" : "通过电话发送的验证码将在10分钟后失效。",
+    "didntReceiveCode" : "未收到验证码？",
+    "didntReceiveCodeSubtitle" : "如果几分钟后未收到代码，可请求新代码。",
+    "requestCode" : "请求新的验证码",
+    "stillHaventHeardBack" : "如果您仍未收到我们发送的验证码，可能需验证您输入的用户ID是否正确。",
+    "ADAriaLable" : "验证码数字",
+    "tooltipLable" : "You will not be asked for a verification code for this device in the future"
+  },
+  "otpForm" : {
+    "rememberMeOnthisDevice" : "以后都信任此设备",
+    "submitBtn" : "提交",
+    "enterSecurityCode" : "输入安全码",
+    "codeRequired" : "必须输入6位代码。",
+    "reenterOrRequestNewCode" : "代码不正确或已过期。请重新输入代码或请求新代码。"
+  },
+  "error" : {
+    "functionalErr" : "We are having trouble establishing a connection. Please refresh the page."
+  }
+}

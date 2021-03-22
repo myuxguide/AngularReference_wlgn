@@ -1,0 +1,7 @@
+{
+  "host": "wwwdev.idev.fedex.com",
+  "commoncore": false,
+  "loglevel": "INFO",
+  "adobelaunch": false,
+  "reloadlocale": false
+}

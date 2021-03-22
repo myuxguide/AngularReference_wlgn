@@ -1,0 +1,80 @@
+{
+  "title" : "Anmelden",
+  "customerSupport" : {
+    "needHelp" : "Benötigen Sie Hilfe?",
+    "supportLink" : "KUNDENDIENST"
+  },
+  "loginCredentials" : {
+    "userIDLabel" : "Benutzer-ID",
+    "userIDSubTitle" : "Sie haben keine Benutzer-ID?",
+    "createOne" : "Erstellen Sie eine Benutzer-ID.",
+    "credentialsHeader" : "Geben Sie zur Anmeldung bitte Ihre Benutzer-ID und Ihr Passwort ein.",
+    "rememberMeLabel" : "Anmeldedaten auf diesem Gerät speichern",
+    "loginButton" : "Anmelden",
+    "passwordLabel" : "Passwort",
+    "forgotCredentialsLink" : "Sie haben Ihre Benutzer-ID oder Ihr Passwort vergessen?",
+    "errorRequired" : "Für die Anmeldung sind die Benutzer-ID und das zugehörige Passwort erforderlich.",
+    "errorIncorrect" : "Die Anmeldung ist nicht korrekt. Entweder ist die Benutzer-ID oder das eingegebene Passwort falsch oder das Konto wurde gesperrt. Bitte versuchen Sie es erneut oder setzen Sie Ihr Passwort zurück.",
+    "showBtn" : "EINBLENDEN",
+    "hideBtn" : "AUSBLENDEN"
+  },
+  "userID" : {
+    "loginButton" : "ANMELDEN"
+  },
+  "credential" : {
+    "userId" : "BENUTZER-ID",
+    "password" : "PASSWORT"
+  },
+  "accountLocked" : {
+    "header" : "Ihr Konto ist vorübergehend gesperrt.",
+    "subtitle" : "Sie haben die maximal zulässige Anzahl ungültiger Anmeldeversuche überschritten. Ihr Konto wurde gesperrt, um unberechtigten Zugriff zu verhindern. Warten Sie <b>1 Stunde<b> und versuchen Sie dann erneut, sich anzumelden.",
+    "needHelp" : "Benötigen Sie Hilfe beim Zugriff auf Ihr Konto?",
+    "forgotButton" : "BENUTZER-ID ODER PASSWORT VERGESSEN?",
+    "passwordLabel" : "Passwort"
+  },
+  "forgotUserId" : {
+    "forgotButton" : "BENUTZER-ID ODER PASSWORT VERGESSEN?"
+  },
+  "chooseVerifyMethod" : {
+    "verifyMethodTitle" : "Wählen Sie eine Verifizierungsmethode aus",
+    "verifyMethodSubtitle" : "Wir senden Ihnen einen Verifizierungs-Code an die in Ihrem Profil hinterlegten Kontaktdaten.",
+    "emailMethod" : "EMAIL",
+    "smsTextMethod" : "SMS",
+    "phoneCallMethod" : "ANRUF",
+    "confirmButton" : "BESTÄTIGEN",
+    "cancelButton" : "ABBRECHEN"
+  },
+  "verifyOptions" : {
+    "verifyOptionsLink" : "ANDERE VERIFIZIERUNGSMETHODE VERWENDEN"
+  },
+  "fail" : {
+    "header" : "Sie haben die Anzahl der zulässigen Verifizierungsversuche überschritten.",
+    "tryAgainButton" : "ERNEUT VERSUCHEN"
+  },
+  "verifyYourIdentity" : {
+    "verifyYourIdentityHeader" : "Verifizieren Sie Ihre Identität",
+    "verifyOptionsLink" : "ANDERE VERIFIZIERUNGSMETHODE VERWENDEN",
+    "SubtitleNumberOne" : "Geben Sie den Code ein, den wir an die in Ihrem Profil hinterlegte Telefonnummer gesendet haben.",
+    "SubtitleNumberTwo" : "Per SMS gesendete Verifizierungscodes sind 10 Minuten gültig.",
+    "SubtitleCallOne" : "Geben Sie den Code ein, den wir an die in Ihrem Profil hinterlegte E-Mail-Adresse gesendet haben.",
+    "SubtitleCallTwo" : "Per E-Mail gesendete Verifizierungscodes sind 10 Minuten gültig.",
+    "SubtitlePhoneOne" : "Geben Sie den Code ein, den wir an die in Ihrem Profil hinterlegte Telefonnummer gesendet haben.",
+    "SubtitlePhoneTwo" : "Per Telefon übermittelte Verifizierungscodes sind 10 Minuten gültig.",
+    "didntReceiveCode" : "Sie haben keinen Code erhalten?",
+    "didntReceiveCodeSubtitle" : "Wenn Sie den Code nicht nach ein paar Minuten erhalten, können Sie einen neuen anfordern.",
+    "requestCode" : "NEUEN CODE ANFORDERN",
+    "stillHaventHeardBack" : "Sotten Sie noch immer keine Mitteilung von uns erhalten haben, prüfen Sie bitte, ob Sie die richtige Benutzer-ID eingegeben haben.",
+    "ADAriaLable" : "Prüf-Code-Ziffer",
+    "tooltipLable" : "You will not be asked for a verification code for this device in the future"
+  },
+  "otpForm" : {
+    "rememberMeOnthisDevice" : "Diesem Gerät in Zukunft vertrauen",
+    "submitBtn" : "ABSENDEN",
+    "enterSecurityCode" : "Sicherheits-Code eingeben",
+    "codeRequired" : "Es ist ein 6-stelliger Code erforderlich.",
+    "reenterOrRequestNewCode" : "Der Code ist nicht korrekt oder abgelaufen. Bitte geben Sie den Code erneut ein oder fordern Sie einen neuen Code an."
+  },
+  "error" : {
+    "functionalErr" : "We are having trouble establishing a connection. Please refresh the page."
+  }
+}

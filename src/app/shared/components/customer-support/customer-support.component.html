@@ -1,0 +1,10 @@
+<!-- Customer Support link -->
+<div class="fdx-u-align--center">
+    <p [hidden]="hideText" class="fdx-u-font-size--h4 fdx-u-text--light fdx-u-mb--0" >
+      {{'customerSupport.needHelp' | translate }}
+    </p>
+    <button id="support-link" tabindex="0" (click)="navigateToCustomerSupport()" aria-label="Customer Support Link"
+        class="fdx-c-button fdx-c-button--text fdx-u-mb--7 fdx-u-cursor--pointer">
+      {{'customerSupport.supportLink' | translate}}
+    </button>
+</div>

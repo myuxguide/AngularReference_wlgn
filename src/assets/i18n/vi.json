@@ -1,0 +1,80 @@
+{
+  "title" : "Đăng nhập",
+  "customerSupport" : {
+    "needHelp" : "Bạn cần trợ giúp?",
+    "supportLink" : "BỘ PHẬN HỖ TRỢ KHÁCH HÀNG"
+  },
+  "loginCredentials" : {
+    "userIDLabel" : "ID người dùng",
+    "userIDSubTitle" : "Bạn không có ID người dùng?",
+    "createOne" : "Hãy tạo ngay.",
+    "credentialsHeader" : "Nhập ID người dùng và mật khẩu của bạn để đăng nhập",
+    "rememberMeLabel" : "Ghi nhớ tôi trên thiết bị này",
+    "loginButton" : "Đăng nhập",
+    "passwordLabel" : "mật khẩu",
+    "forgotCredentialsLink" : "Bạn quên ID người dùng hoặc mật khẩu?",
+    "errorRequired" : "Bạn phải nhập cả ID người dùng và mật khẩu để đăng nhập.",
+    "errorIncorrect" : "Thông tin đăng nhập không chính xác. Kết hợp ID người dùng và mật khẩu không đúng hoặc tài khoản đã bị khóa. Vui lòng thử lại hoặc đặt lại mật khẩu.",
+    "showBtn" : "HIỂN THỊ",
+    "hideBtn" : "ẨN"
+  },
+  "userID" : {
+    "loginButton" : "ĐĂNG NHẬP"
+  },
+  "credential" : {
+    "userId" : "ID NGƯỜI DÙNG",
+    "password" : "MẬT KHẨU"
+  },
+  "accountLocked" : {
+    "header" : "Tài khoản của bạn bị khóa tạm thời.",
+    "subtitle" : "Đã quá số lần tối đa cho phép đăng nhập không thành công. Chúng tôi đã khóa tài khoản của bạn để ngăn việc truy cập trái phép. Bạn có thể thử đăng nhập lại sau <b>1 giờ.<b>",
+    "needHelp" : "Bạn cần trợ giúp để truy cập vào tài khoản của mình?",
+    "forgotButton" : "BẠN QUÊN ID NGƯỜI DÙNG HOẶC MẬT KHẨU?",
+    "passwordLabel" : "mật khẩu"
+  },
+  "forgotUserId" : {
+    "forgotButton" : "BẠN QUÊN ID NGƯỜI DÙNG HOẶC MẬT KHẨU?"
+  },
+  "chooseVerifyMethod" : {
+    "verifyMethodTitle" : "Chọn phương thức xác minh",
+    "verifyMethodSubtitle" : "Chúng tôi sẽ gửi cho bạn mã xác minh theo thông tin liên hệ trên hồ sơ của bạn.",
+    "emailMethod" : "EMAIL",
+    "smsTextMethod" : "TIN NHẮN SMS",
+    "phoneCallMethod" : "CUỘC GỌI ĐIỆN THOẠI",
+    "confirmButton" : "XÁC NHẬN",
+    "cancelButton" : "HỦY"
+  },
+  "verifyOptions" : {
+    "verifyOptionsLink" : "SỬ DỤNG PHƯƠNG THỨC XÁC MINH KHÁC"
+  },
+  "fail" : {
+    "header" : "Bạn đã vượt quá số lần xác minh được phép.",
+    "tryAgainButton" : "THỬ LẠI"
+  },
+  "verifyYourIdentity" : {
+    "verifyYourIdentityHeader" : "Xác minh danh tính của bạn",
+    "verifyOptionsLink" : "SỬ DỤNG PHƯƠNG THỨC XÁC MINH KHÁC",
+    "SubtitleNumberOne" : "Nhập mã chúng tôi đã nhắn tin đến số điện thoại trong hồ sơ của bạn",
+    "SubtitleNumberTwo" : "Mã xác minh được gửi qua tin nhắn có hiệu lực trong 10 phút.",
+    "SubtitleCallOne" : "Nhập mã chúng tôi đã gửi đến email trong hồ sơ của bạn",
+    "SubtitleCallTwo" : "Mã xác minh được gửi qua email có hiệu lực trong 10 phút.",
+    "SubtitlePhoneOne" : "Nhập mã chúng tôi đã gửi đến số điện thoại trong hồ sơ của bạn",
+    "SubtitlePhoneTwo" : "Mã xác minh được gửi qua điện thoại có hiệu lực trong 10 phút.",
+    "didntReceiveCode" : "Bạn chưa nhận được mã?",
+    "didntReceiveCodeSubtitle" : "Nếu sau vài phút vẫn chưa nhận được mã, bạn có thể yêu cầu mã mới.",
+    "requestCode" : "YÊU CẦU MÃ MỚI",
+    "stillHaventHeardBack" : "Nếu vẫn chưa nhận được thông báo từ chúng tôi, bạn nên kiểm tra xem bạn đã nhập đúng ID người dùng chưa.",
+    "ADAriaLable" : "Chữ số ở mã xác minh",
+    "tooltipLable" : "You will not be asked for a verification code for this device in the future"
+  },
+  "otpForm" : {
+    "rememberMeOnthisDevice" : "Về sau cũng tin cậy thiết bị này",
+    "submitBtn" : "GỬI",
+    "enterSecurityCode" : "Nhập mã bảo mật",
+    "codeRequired" : "Yêu cầu nhập mã 6 gồm chữ số.",
+    "reenterOrRequestNewCode" : "Mã không chính xác hoặc đã hết hạn. Vui lòng nhập lại mã hoặc yêu cầu mã mới."
+  },
+  "error" : {
+    "functionalErr" : "We are having trouble establishing a connection. Please refresh the page."
+  }
+}

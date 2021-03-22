@@ -1,0 +1,38 @@
+{
+  "extends": "../tslint.json",
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "wlgn",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "wlgn",
+      "kebab-case"
+    ],
+    "max-line-length": [
+      true,
+      {
+        "limit": 180
+      }
+    ],
+    "variable-name": [
+      true,
+      "allow-leading-underscore"
+    ],
+    "curly": [
+      true,
+      "ignore-same-line"
+    ],
+    "no-string-literal": false,
+    "no-conditional-assignment": false,
+    "semicolon": [
+      true,
+      "always",
+      "ignore-bound-class-methods"
+    ]
+  }
+}

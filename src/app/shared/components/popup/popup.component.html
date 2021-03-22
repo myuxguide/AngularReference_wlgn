@@ -1,0 +1,15 @@
+<section>
+    <div *ngIf="show" id="wlgn-popup">
+        <div class="fxg-modal-2">
+            <div class="fxg-modal">
+                <button (click)="closePopup()" class="close">X
+                </button>
+
+                <div class="cannot-text">
+                    {{message}}
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>

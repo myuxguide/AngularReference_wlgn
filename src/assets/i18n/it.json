@@ -1,0 +1,80 @@
+{
+  "title" : "Accedi",
+  "customerSupport" : {
+    "needHelp" : "Avete bisogno di aiuto?",
+    "supportLink" : "SERVIZIO CLIENTI"
+  },
+  "loginCredentials" : {
+    "userIDLabel" : "ID utente",
+    "userIDSubTitle" : "Non avete un ID utente?",
+    "createOne" : "Createne uno.",
+    "credentialsHeader" : "Inserite il vostro ID utente e la password per effettuare l'accesso",
+    "rememberMeLabel" : "Ricordami su questo dispositivo",
+    "loginButton" : "Effettuare l'accesso",
+    "passwordLabel" : "password",
+    "forgotCredentialsLink" : "Avete dimenticato l'ID Utente o la password?",
+    "errorRequired" : "Per effettuare l'accesso sono necessari ID utente e password.",
+    "errorIncorrect" : "Accesso errato. È possibile che l'ID utente o la password inseriti non siano corretti o che il vostro Codice Cliente sia stato bloccato. Vi invitiamo a riprovare o a resettare la password.",
+    "showBtn" : "MOSTRA",
+    "hideBtn" : "NASCONDI"
+  },
+  "userID" : {
+    "loginButton" : "ACCEDI"
+  },
+  "credential" : {
+    "userId" : "ID UTENTE",
+    "password" : "PASSWORD"
+  },
+  "accountLocked" : {
+    "header" : "Il vostro Codice Cliente è temporaneamente bloccato.",
+    "subtitle" : "Avete superato il numero massimo di tentativi di accesso falliti. Abbiamo bloccato il vostro codice cliente per impedire accessi non autorizzati. Potrete nuovamente tentare l'accesso tra <b>1 ora.<b>",
+    "needHelp" : "Avete bisogno di aiuto per accedere al vostro Codice Cliente?",
+    "forgotButton" : "AVETE DIMENTICATO L'ID UTENTE O LA PASSWORD?",
+    "passwordLabel" : "password"
+  },
+  "forgotUserId" : {
+    "forgotButton" : "AVETE DIMENTICATO L'ID UTENTE O LA PASSWORD?"
+  },
+  "chooseVerifyMethod" : {
+    "verifyMethodTitle" : "Scegliete un metodo di verifica",
+    "verifyMethodSubtitle" : "Vi invieremo un codice di verifica usando le informazioni di contatto presenti sul vostro profilo.",
+    "emailMethod" : "E-MAIL",
+    "smsTextMethod" : "TESTO SMS",
+    "phoneCallMethod" : "TELEFONATA",
+    "confirmButton" : "CONFERMA",
+    "cancelButton" : "ANNULLA"
+  },
+  "verifyOptions" : {
+    "verifyOptionsLink" : "USA UN DIVERSO METODO DI VERIFICA"
+  },
+  "fail" : {
+    "header" : "Avete superato il numero massimo di tentativi di verifica consentiti.",
+    "tryAgainButton" : "RIPROVA"
+  },
+  "verifyYourIdentity" : {
+    "verifyYourIdentityHeader" : "Verificate la vostra identità",
+    "verifyOptionsLink" : "USA UN DIVERSO METODO DI VERIFICA",
+    "SubtitleNumberOne" : "Inserite il codice che vi abbiamo inviato tramite SMS al numero presente sul vostro profilo",
+    "SubtitleNumberTwo" : "I codici inviati tramite SMS sono validi per 10 minuti.",
+    "SubtitleCallOne" : "Enter the code we sent to the email on your profile",
+    "SubtitleCallTwo" : "I codici inviati tramite email sono validi per 10 minuti.",
+    "SubtitlePhoneOne" : "Enter the code we sent to the phone number on your profile",
+    "SubtitlePhoneTwo" : "I codici inviati tramite telefonata sono validi per 10 minuti.",
+    "didntReceiveCode" : "Non avete ricevuto nessun codice?",
+    "didntReceiveCodeSubtitle" : "Se dopo alcuni minuti non avete ancora ricevuto un codice, potete richiederne uno nuovo.",
+    "requestCode" : "RICHIEDI NUOVO CODICE",
+    "stillHaventHeardBack" : "Se non avete ancora ricevuto nulla, verificate di aver inserito l'ID utente corretto.",
+    "ADAriaLable" : "Codice di verifica",
+    "tooltipLable" : "You will not be asked for a verification code for this device in the future"
+  },
+  "otpForm" : {
+    "rememberMeOnthisDevice" : "Questo dispositivo verrà considerato come affidabile in futuro",
+    "submitBtn" : "INVIARE",
+    "enterSecurityCode" : "Inserite il codice di sicurezza",
+    "codeRequired" : "È obbligatorio inserire un codice a 6 cifre.",
+    "reenterOrRequestNewCode" : "Il codice non è corretto o è scaduto. Vi invitiamo a reinserire il codice o a richiederne uno nuovo."
+  },
+  "error" : {
+    "functionalErr" : "We are having trouble establishing a connection. Please refresh the page."
+  }
+}

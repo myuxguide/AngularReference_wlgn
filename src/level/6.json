@@ -1,0 +1,7 @@
+{
+  "env": {
+    "host": "wwwtest.fedex.com",
+    "mock_host": "https://mock.host.com",
+    "mock": false
+  }
+}

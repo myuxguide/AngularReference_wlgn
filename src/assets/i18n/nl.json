@@ -1,0 +1,80 @@
+{
+  "title" : "Aanmelden",
+  "customerSupport" : {
+    "needHelp" : "Hulp nodig?",
+    "supportLink" : "KLANTENONDERSTEUNING"
+  },
+  "loginCredentials" : {
+    "userIDLabel" : "gebruikersnaam",
+    "userIDSubTitle" : "Hebt u geen gebruikersnaam?",
+    "createOne" : "Maak er een.",
+    "credentialsHeader" : "Voer uw gebruikersnaam en wachtwoord in om in te loggen",
+    "rememberMeLabel" : "Herinner mij op dit apparaat",
+    "loginButton" : "Aanmelden",
+    "passwordLabel" : "wachtwoord",
+    "forgotCredentialsLink" : "Uw gebruikersnaam of wachtwoord vergeten?",
+    "errorRequired" : "Gebruikersnaam en wachtwoord zijn vereist om te kunnen aanmelden.",
+    "errorIncorrect" : "Aanmelding is onjuist. De combinatie gebruikersnaam/wachtwoord is onjuist of het account is afgesloten. Probeer het opnieuw of herstel uw wachtwoord.",
+    "showBtn" : "WEERGEVEN",
+    "hideBtn" : "VERBERGEN"
+  },
+  "userID" : {
+    "loginButton" : "AANMELDEN"
+  },
+  "credential" : {
+    "userId" : "GEBRUIKERS-ID",
+    "password" : "WACHTWOORD"
+  },
+  "accountLocked" : {
+    "header" : "Uw account is tijdelijk vergrendeld.",
+    "subtitle" : "U hebt het maximale aantal mislukte inlogpogingen overschreden. We hebben uw account vergrendeld om ongeautoriseerde toegang te voorkomen. U kunt opnieuw proberen in te loggen over <b>1 uur.<b>",
+    "needHelp" : "Hulp nodig bij het verkrijgen van toegang tot uw account?",
+    "forgotButton" : "UW GEBRUIKERSNAAM OF WACHTWOORD VERGETEN?",
+    "passwordLabel" : "wachtwoord"
+  },
+  "forgotUserId" : {
+    "forgotButton" : "UW GEBRUIKERS-ID OF WACHTWOORD VERGETEN?"
+  },
+  "chooseVerifyMethod" : {
+    "verifyMethodTitle" : "Kies een verificatiemethode",
+    "verifyMethodSubtitle" : "U ontvangt een verificatiecode waarbij de contactgegeven in uw profiel worden gebruikt.",
+    "emailMethod" : "EMAIL",
+    "smsTextMethod" : "SMS-BERICHT",
+    "phoneCallMethod" : "TELEFOONGESPREK",
+    "confirmButton" : "BEVESTIGEN",
+    "cancelButton" : "ANNULEREN"
+  },
+  "verifyOptions" : {
+    "verifyOptionsLink" : "EEN ANDERE VERIFICATIEMETHODE GEBRUIKEN"
+  },
+  "fail" : {
+    "header" : "U heeft het maximale aantal toegestane verificatiepogingen overschreden.",
+    "tryAgainButton" : "OPNIEUW PROBEREN"
+  },
+  "verifyYourIdentity" : {
+    "verifyYourIdentityHeader" : "Verifieer uw identiteit.",
+    "verifyOptionsLink" : "EEN ANDERE VERIFICATIEMETHODE GEBRUIKEN",
+    "SubtitleNumberOne" : "Voer de code in die we als sms naar het nummer op uw profiel hebben gestuurd.",
+    "SubtitleNumberTwo" : "Verificatiecodes die als sms worden gestuurd, zijn 10 minuten geldig.",
+    "SubtitleCallOne" : "Voer de code in die we naar het e-mailadres op uw profiel hebben gestuurd.",
+    "SubtitleCallTwo" : "Verificatiecodes die per mail worden gestuurd, zijn 10 minuten geldig.",
+    "SubtitlePhoneOne" : "Voer de code in die we naar het telefoonnummer op uw profiel hebben gestuurd.",
+    "SubtitlePhoneTwo" : "Verificatiecodes die via de telefoon worden gestuurd, zijn 10 minuten geldig.",
+    "didntReceiveCode" : "Geen code ontvangen?",
+    "didntReceiveCodeSubtitle" : "Als u na enkele minuten geen code hebt ontvangen, kunt u een nieuwe aanvragen.",
+    "requestCode" : "EEN NIEUWE CODE AANVRAGEN",
+    "stillHaventHeardBack" : "Als u nog steeds niets van ons heeft gehoord, dient u te controleren of u de juiste gebruikers-ID heeft ingevoerd.",
+    "ADAriaLable" : "Cijfer verificatiecode",
+    "tooltipLable" : "You will not be asked for a verification code for this device in the future"
+  },
+  "otpForm" : {
+    "rememberMeOnthisDevice" : "Vertrouw dit apparaat in de toekomst",
+    "submitBtn" : "VERZENDEN",
+    "enterSecurityCode" : "Voer de beveiligingscode in",
+    "codeRequired" : "Een zescijferige code is vereist.",
+    "reenterOrRequestNewCode" : "Code is onjuist of verlopen. Voer de code opnieuw in of vraag een nieuwe code aan."
+  },
+  "error" : {
+    "functionalErr" : "We are having trouble establishing a connection. Please refresh the page."
+  }
+}

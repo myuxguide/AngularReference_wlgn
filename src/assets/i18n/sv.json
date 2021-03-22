@@ -1,0 +1,80 @@
+{
+  "title" : "Logga in",
+  "customerSupport" : {
+    "needHelp" : "Behöver du hjälp?",
+    "supportLink" : "KUNDTJÄNST"
+  },
+  "loginCredentials" : {
+    "userIDLabel" : "användar-ID",
+    "userIDSubTitle" : "Har du inget användar-ID?",
+    "createOne" : "Skapa ett.",
+    "credentialsHeader" : "Ange användar-ID och lösenord för att logga in",
+    "rememberMeLabel" : "Kom ihåg mig på den här enheten",
+    "loginButton" : "Logga in",
+    "passwordLabel" : "lösenord",
+    "forgotCredentialsLink" : "Har du glömt ditt användar-ID eller lösenord?",
+    "errorRequired" : "Både användar-ID och lösenord krävs för att logga in.",
+    "errorIncorrect" : "Felaktiga inloggningsuppgifter. Antingen är kombinationen av användar-ID och lösenord felaktig eller så har kontot låsts. Försök igen eller återställ lösenordet.",
+    "showBtn" : "VISA",
+    "hideBtn" : "DÖLJ"
+  },
+  "userID" : {
+    "loginButton" : "LOGGA IN"
+  },
+  "credential" : {
+    "userId" : "ANVÄNDAR-ID",
+    "password" : "LÖSENORD"
+  },
+  "accountLocked" : {
+    "header" : "Ditt konto har låsts tillfälligt.",
+    "subtitle" : "Du har överskridit det maximala antalet tillåtna misslyckade inloggningsförsök. Vi har låst ditt konto för att förhindra obehörig åtkomst. Du kan försöka att logga in igen om <b>1 timme.<b>",
+    "needHelp" : "Behöver du hjälp med att få åtkomst till ditt konto?",
+    "forgotButton" : "HAR DU GLÖMT DITT ANVÄNDAR-ID ELLER LÖSENORD?",
+    "passwordLabel" : "lösenord"
+  },
+  "forgotUserId" : {
+    "forgotButton" : "HAR DU GLÖMT DITT ANVÄNDAR-ID ELLER LÖSENORD?"
+  },
+  "chooseVerifyMethod" : {
+    "verifyMethodTitle" : "Välj en verifieringsmetod",
+    "verifyMethodSubtitle" : "Vi kommer att använda kontaktuppgifterna i din profil för att skicka en verifieringskod.",
+    "emailMethod" : "EMAIL",
+    "smsTextMethod" : "SMS",
+    "phoneCallMethod" : "TELEFONSAMTAL",
+    "confirmButton" : "BEKRÄFTA",
+    "cancelButton" : "AVBRYT"
+  },
+  "verifyOptions" : {
+    "verifyOptionsLink" : "ANVÄND EN ANNAN VERIFIKATIONSMETOD"
+  },
+  "fail" : {
+    "header" : "Du har överskridit antalet tillåtna verifieringsförsök.",
+    "tryAgainButton" : "FÖRSÖK IGEN"
+  },
+  "verifyYourIdentity" : {
+    "verifyYourIdentityHeader" : "Verifiera din identitet",
+    "verifyOptionsLink" : "ANVÄND EN ANNAN VERIFIKATIONSMETOD",
+    "SubtitleNumberOne" : "Enter the code we texted to the number on your profile",
+    "SubtitleNumberTwo" : "Verifieringskoder som du får via sms är giltiga i 10 minuter.",
+    "SubtitleCallOne" : "Enter the code we sent to the email on your profile",
+    "SubtitleCallTwo" : "Verifieringskoder som du får via e-post är giltiga i 10 minuter.",
+    "SubtitlePhoneOne" : "Enter the code we sent to the phone number on your profile",
+    "SubtitlePhoneTwo" : "Verifieringskoder som du får via telefon är giltiga i 10 minuter.",
+    "didntReceiveCode" : "Fick du ingen kod?",
+    "didntReceiveCodeSubtitle" : "Om du inte har fått någon kod inom några minuter kan du begära en ny.",
+    "requestCode" : "BEGÄR EN NY KOD",
+    "stillHaventHeardBack" : "Om du fortfarande inte har hört från oss kan du kontrollera att du har angett rätt användar-ID.",
+    "ADAriaLable" : "Verifieringskod",
+    "tooltipLable" : "You will not be asked for a verification code for this device in the future"
+  },
+  "otpForm" : {
+    "rememberMeOnthisDevice" : "Trust this device in the future",
+    "submitBtn" : "SKICKA",
+    "enterSecurityCode" : "Ange säkerhetskoden",
+    "codeRequired" : "En sexsiffrig kod krävs.",
+    "reenterOrRequestNewCode" : "Koden är fel eller har upphört att gälla. Ange koden igen eller begär en ny kod."
+  },
+  "error" : {
+    "functionalErr" : "We are having trouble establishing a connection. Please refresh the page."
+  }
+}

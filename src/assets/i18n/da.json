@@ -1,0 +1,80 @@
+{
+  "title" : "Logon",
+  "customerSupport" : {
+    "needHelp" : "Brug for hjælp?",
+    "supportLink" : "KUNDESUPPORT"
+  },
+  "loginCredentials" : {
+    "userIDLabel" : "bruger-id",
+    "userIDSubTitle" : "Har du ikke et bruger-id?",
+    "createOne" : "Opret et.",
+    "credentialsHeader" : "Indtast dit bruger-id og din adgangskode for at logge på.",
+    "rememberMeLabel" : "Husk mig på denne enhed",
+    "loginButton" : "Log på",
+    "passwordLabel" : "password",
+    "forgotCredentialsLink" : "Har du glemt dit bruger-id eller din adgangskode?",
+    "errorRequired" : "Både bruger-id og adgangskode er påkrævet for at logge på.",
+    "errorIncorrect" : "Forkert login. Enten er kombinationen af bruger-id og adgangskode forkert, eller kontoen er blevet låst. Prøv igen, eller nulstil din adgangskode.",
+    "showBtn" : "VIS",
+    "hideBtn" : "SKJUL"
+  },
+  "userID" : {
+    "loginButton" : "LOG PÅ"
+  },
+  "credential" : {
+    "userId" : "BRUGER-ID",
+    "password" : "ADGANGSKODE"
+  },
+  "accountLocked" : {
+    "header" : "Din konto er midlertidigt låst.",
+    "subtitle" : "Du har overskredet det maksimale antal mislykkede loginforsøg. Vi har låst din konto for at forhindre uautoriseret adgang. Du kan forsøge at logge ind igen om <b>1 time.<b>",
+    "needHelp" : "Har du brug for hjælp til at få adgang til din konto?",
+    "forgotButton" : "HAR DU GLEMT DIT BRUGER-ID ELLER DIN ADGANGSKODE?",
+    "passwordLabel" : "password"
+  },
+  "forgotUserId" : {
+    "forgotButton" : "HAR DU GLEMT DIT BRUGER-ID ELLER DIN ADGANGSKODE?"
+  },
+  "chooseVerifyMethod" : {
+    "verifyMethodTitle" : "Vælg en bekræftelsesmetode",
+    "verifyMethodSubtitle" : "Vi sender dig en bekræftelseskode ved hjælp af din profils kontaktoplysninger.",
+    "emailMethod" : "E-MAIL",
+    "smsTextMethod" : "SMS",
+    "phoneCallMethod" : "TELEFONOPKALD",
+    "confirmButton" : "BEKRÆFT",
+    "cancelButton" : "ANNULLER"
+  },
+  "verifyOptions" : {
+    "verifyOptionsLink" : "BRUG EN ANDEN VERIFIKATIONSMETODE"
+  },
+  "fail" : {
+    "header" : "Du har overskredet det tilladte antal af verifikationsforsøg.",
+    "tryAgainButton" : "PRØV IGEN"
+  },
+  "verifyYourIdentity" : {
+    "verifyYourIdentityHeader" : "Bekræft din identitet",
+    "verifyOptionsLink" : "BRUG EN ANDEN VERIFIKATIONSMETODE",
+    "SubtitleNumberOne" : "Indtast den kode, vi har sendt dig, til nummeret på din profil",
+    "SubtitleNumberTwo" : "Bekræftelseskoder, der sendes via sms, er gyldige i 10 minutter.",
+    "SubtitleCallOne" : "Indtast den kode, vi har sendt dig, til e-mailen på din profil",
+    "SubtitleCallTwo" : "Bekræftelseskoder, der sendes via e-mail, er gyldige i 10 minutter.",
+    "SubtitlePhoneOne" : "Indtast den kode, vi har sendt dig, til telefonnummeret på din profil",
+    "SubtitlePhoneTwo" : "Bekræftelseskoder, der sendes via telefon, er gyldige i 10 minutter.",
+    "didntReceiveCode" : "Modtog du ikke en kode?",
+    "didntReceiveCodeSubtitle" : "Hvis du ikke har modtaget en kode efter et par minutter, kan du anmode om en ny.",
+    "requestCode" : "ANMOD OM EN NY KODE",
+    "stillHaventHeardBack" : "Hvis du stadig ikke har hørt fra os, bør du kontrollere, om du har indtastet det korrekte bruger-id.",
+    "ADAriaLable" : "Verifikationskodetal",
+    "tooltipLable" : "You will not be asked for a verification code for this device in the future"
+  },
+  "otpForm" : {
+    "rememberMeOnthisDevice" : "Hav tillid til denne enhed fremover",
+    "submitBtn" : "SEND",
+    "enterSecurityCode" : "Indtast sikkerhedskoden",
+    "codeRequired" : "Der kræves en 6-cifret kode.",
+    "reenterOrRequestNewCode" : "Koden er forkert eller er udløbet. Indtast koden igen, eller anmod om en ny kode."
+  },
+  "error" : {
+    "functionalErr" : "We are having trouble establishing a connection. Please refresh the page."
+  }
+}

@@ -1,0 +1,27 @@
+library 'reference-pipeline'
+
+pipeline{
+    agent {
+		docker {
+			label 'docker'
+			image 'nexus2.prod.cloud.fedex.com:8444/fdx/jenkins/fortify-image'
+		}
+	}
+
+    options {buildDiscarder(logRotator(numToKeepStr: '5'))} 
+    
+    stages{                  
+        stage('Fortify Analysis') {
+            steps{
+                script{
+                    sh "translateTwo.sh -p 3537405_Web_User_Login -v dev -t none -r RUN"
+                }
+            }
+        }
+    }
+    post{
+		always{
+			cleanWs()
+		}
+	}
+}

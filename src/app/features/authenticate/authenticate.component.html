@@ -1,0 +1,73 @@
+<div class="fdx-u-align--center">
+  <!--Header and subtitle-->
+    <div class="fdx-o-grid__row fdx-o-grid__row--center">
+      <div class="fdx-o-grid__item--8 fdx-o-grid__item--12@small-only fdx-u-align--center">
+        <h1 class="fdx-c-header fdx-c-header--h2 fdx-u-mb--3" id="title">
+            {{ 'verifyYourIdentity.verifyYourIdentityHeader' | translate }}
+        </h1>
+      </div>
+    </div>
+    <h2 *ngIf='verificationMethod === "SMS"' class="fdx-u-font-size--h5 fdx-u-text--light fdx-u-mb--7 fdx-u-ml--2 fdx-u-mr--2 " 
+    aria-live="assertive" aria-atomic="true" id="verifySubtitleCall-sms">
+    <span id="SubtitleNumberOne">{{ 'verifyYourIdentity.SubtitleNumberOne' | translate }}</span> ({{verificationAddress}}). <br>
+    <span id="SubtitleNumberTwo">{{ 'verifyYourIdentity.SubtitleNumberTwo' | translate }}</span>
+    </h2>
+
+    <h2 *ngIf='verificationMethod === "EMAIL"' class="fdx-u-font-size--h5 fdx-u-text--light fdx-u-mb--7 fdx-u-ml--2 fdx-u-mr--2 " 
+    aria-live="assertive" aria-atomic="true" id="verifySubtitleCall-email">
+    <span id="SubtitleCallOne">{{ 'verifyYourIdentity.SubtitleCallOne' | translate }}</span> ({{verificationAddress}}). <br>
+    <span id="SubtitleCallTwo">{{ 'verifyYourIdentity.SubtitleCallTwo' | translate }}</span>
+    </h2>
+
+    <h2 *ngIf='verificationMethod === "CALL"' class="fdx-u-font-size--h5 fdx-u-text--light fdx-u-mb--7 fdx-u-ml--2 fdx-u-mr--2 "
+    aria-live="assertive" aria-atomic="true" id="verifySubtitleCall-call">
+    <span id="SubtitlePhoneOne">{{ 'verifyYourIdentity.SubtitlePhoneOne' | translate }}</span> ({{verificationAddress}}). <br>
+    <span id="SubtitlePhoneTwo">{{ 'verifyYourIdentity.SubtitlePhoneTwo' | translate }}</span>
+    </h2>
+
+<!-- OTP form with Submit button  -->
+<wlgn-otp-form></wlgn-otp-form>
+
+<!-- Use a different verification method button -->
+ <div class="fdx-u-align--center fdx-u-mb--5">
+  <button id="verifyOptionsLink-btn" (click)="openPopUp()"
+          class="fdx-c-button fdx-c-button--suffix fdx-c-button--text fdx-c-button--responsive"
+          aria-atomic="true" aria-live="assertive">{{'verifyOptions.verifyOptionsLink' | translate}}</button>
+  <wlgn-authentication-popup *ngIf="authenticationModalFlag" (hidePopup)="hidePopup($event)" [response]="apiResponse"></wlgn-authentication-popup>
+</div>
+
+<!-- add hr line here-->
+<div class="fdx-o-grid__row fdx-o-grid__row--center">
+    <hr class="fdx-c-line  fdx-c-line--grey--dark-3 fdx-o-grid__item--11">
+</div>
+
+<!-- Didnt receive code? -->
+<p 
+    class="fdx-u-font-size--h4 fdx-u-text--light fdx-u-mb--0 fdx-u-ml--2 fdx-u-mr--2 "
+    aria-atomic="true" aria-live="assertive" id="didntReceiveCode">
+    {{ 'verifyYourIdentity.didntReceiveCode' | translate }}
+</p>
+
+<!-- subtitle -->
+<p 
+    class="fdx-u-font-size--h7 fdx-u-text--light fdx-u-mb--0 fdx-u-mt--0 fdx-u-ml--2 fdx-u-mr--2 "
+    aria-atomic="true" aria-live="assertive" id="didntReceiveCodeSubtitle">
+    {{ 'verifyYourIdentity.didntReceiveCodeSubtitle' | translate }}
+</p>
+
+<!-- Request New code button -->
+<div class="fdx-u-align--center">
+    <button id="requestCode-btn"
+    (click) = "resendVerificationCode()"
+            class="fdx-c-button fdx-c-button--suffix fdx-c-button--text fdx-c-button--responsive"
+            aria-atomic="true" aria-live="assertive">{{'verifyYourIdentity.requestCode' | translate}}</button>
+</div>
+<br>
+
+<!-- Customer support link -->
+<div>
+  <wlgn-customer-support [hideText]="false"></wlgn-customer-support>
+</div>
+</div>
+ 
+

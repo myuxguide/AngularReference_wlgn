@@ -1,0 +1,46 @@
+<!--Svg lock icon-->
+<div class="fdx-u-align--center">
+    <div class="fdx-o-grid__row fdx-o-grid__row--center fdx-u-mt--5 fdx-u-mb--5">
+        <svg class="fdx-c-icon fdx-o-grid__item--10 fdx-u-font-size--h3" aria-hidden="true">
+            <use xlink:href="#utility_lock"></use>
+        </svg>
+    </div>
+
+    <!-- Adding title here -->
+    <div class="fdx-o-grid__row fdx-o-grid__row--center fdx-u-mt--5 fdx-u-mt--1@small">
+        <h1 class="fdx-c-header fdx-c-header--h2 fdx-c-header--h3@small-only fdx-u-mb--6 fdx-o-grid__item--9@small-only" id="yourAccountLocked-title">
+            {{ 'accountLocked.header'|translate }}
+        </h1>
+    </div>
+
+    <!-- Adding subtitle here -->
+    <div class="fdx-u-mb--10 fdx-u-ml--6@small-only fdx-u-ml--8@medium fdx-o-grid__item--10 fdx-o-grid__item--10@small-only fdx-o-grid__row--center">
+        <h2 id="accnt-message" class="fdx-c-paragraph fdx-u-mb--0 fdx-o-grid__item--offset-1@large" id="subtitle-text"
+            [innerHTML]="'accountLocked.subtitle' | translate">
+        </h2>
+    </div>
+
+    <!-- add hr line here-->
+    <div class="fdx-o-grid__row fdx-o-grid__row--center">
+        <hr class="fdx-c-line fdx-c-line--default fdx-o-grid__item--9">
+    </div>
+
+
+    <!-- Adding needhelp here -->
+    <div class="fdx-o-grid__row--center">
+
+        <h3 id="needHelpGainingAcess"
+            class="fdx-c-paragraph fdx-u-text--light fdx-u-font-size--h6 fdx-u-mt--10 fdx-u-mb--0 fdx-u-mb--3@small-only fdx-u-ml--10@small-only fdx-o-grid__item--9@small-only">
+            {{'accountLocked.needHelp' | translate }}
+        </h3>
+
+        <wlgn-forgot-userid></wlgn-forgot-userid>
+
+        <!-- Adding customerSupport button here -->
+        <div class=" fdx-o-grid__item--12">
+          <wlgn-customer-support [hideText]="true"></wlgn-customer-support>
+        </div>
+  </div>
+
+
+</div>

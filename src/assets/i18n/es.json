@@ -1,0 +1,80 @@
+{
+  "title" : "Registrarse",
+  "customerSupport" : {
+    "needHelp" : "¿Necesita ayuda?",
+    "supportLink" : "SERVICIO DE ATENCIÓN AL CLIENTE"
+  },
+  "loginCredentials" : {
+    "userIDLabel" : "ID de usuario",
+    "userIDSubTitle" : "¿No tiene un ID de usuario?",
+    "createOne" : "Cree uno.",
+    "credentialsHeader" : "Ingrese su ID de usuario y su contraseña para iniciar sesión.",
+    "rememberMeLabel" : "Recordarme en este dispositivo",
+    "loginButton" : "Iniciar sesión",
+    "passwordLabel" : "contraseña",
+    "forgotCredentialsLink" : "¿Olvidó su ID de usuario o contraseña?",
+    "errorRequired" : "El ID de usuario y la contraseña son obligatorios para iniciar sesión.",
+    "errorIncorrect" : "Inicio de sesión incorrecto. La combinación de ID de usuario y contraseña es incorrecta o se ha bloqueado la cuenta. Intente nuevamente o restablezca su contraseña.",
+    "showBtn" : "MOSTRAR",
+    "hideBtn" : "OCULTAR"
+  },
+  "userID" : {
+    "loginButton" : "INICIAR SESIÓN"
+  },
+  "credential" : {
+    "userId" : "ID DE USUARIO",
+    "password" : "CONTRASEÑA"
+  },
+  "accountLocked" : {
+    "header" : "Tu cuenta está bloqueada temporalmente.",
+    "subtitle" : "Haz superado el número máximo de intentos fallidos para iniciar sesión. Hemos bloqueado tu cuenta para impedir accesos no autorizados. Puedes intentar iniciar sesión nuevamente en <b>1 hora.<b>",
+    "needHelp" : "¿Necesitas ayuda para acceder a tu cuenta?",
+    "forgotButton" : "¿OLVIDÓ SU ID DE USUARIO O CONTRASEÑA?",
+    "passwordLabel" : "contraseña"
+  },
+  "forgotUserId" : {
+    "forgotButton" : "¿OLVIDÓ SU ID DE USUARIO O CONTRASEÑA?"
+  },
+  "chooseVerifyMethod" : {
+    "verifyMethodTitle" : "Elija un método de verificación",
+    "verifyMethodSubtitle" : "Le enviaremos un código de verificación usando la información de contacto de su perfil.",
+    "emailMethod" : "EMAIL",
+    "smsTextMethod" : "TEXTO SMS",
+    "phoneCallMethod" : "LLAMADA TELEFÓNICA",
+    "confirmButton" : "CONFIRMAR",
+    "cancelButton" : "CANCELAR"
+  },
+  "verifyOptions" : {
+    "verifyOptionsLink" : "USAR UN MÉTODO DE VERIFICACIÓN DIFERENTE"
+  },
+  "fail" : {
+    "header" : "Ha superado la cantidad de intentos de verificación permitida.",
+    "tryAgainButton" : "INTÉNTALO NUEVAMENTE"
+  },
+  "verifyYourIdentity" : {
+    "verifyYourIdentityHeader" : "Verifica tu identidad.",
+    "verifyOptionsLink" : "USAR UN MÉTODO DE VERIFICACIÓN DIFERENTE",
+    "SubtitleNumberOne" : "Ingresa el código que te enviamos por mensaje de texto al número en tu perfil.",
+    "SubtitleNumberTwo" : "Los códigos de verificación que se envían por mensaje de texto son válidos por 10 minutos.",
+    "SubtitleCallOne" : "Ingrese el código que enviamos al correo electrónico que aparece en su perfil.",
+    "SubtitleCallTwo" : "Los códigos de verificación que se envían por correo electrónico son válidos por 10 minutos.",
+    "SubtitlePhoneOne" : "Ingrese el código que enviamos al número telefónico que aparece en su perfil.",
+    "SubtitlePhoneTwo" : "Los códigos de verificación que se envían por teléfono son válidos por 10 minutos.",
+    "didntReceiveCode" : "¿No recibió el código?",
+    "didntReceiveCodeSubtitle" : "Si no recibe el código después de unos minutos, puede solicitar uno nuevo.",
+    "requestCode" : "SOLICITAR UN CÓDIGO NUEVO",
+    "stillHaventHeardBack" : "Si sigue sin recibir nada de nuestra parte, verifique si ingresó la ID de usuario correcto.",
+    "ADAriaLable" : "Dígito del código de verificación",
+    "tooltipLable" : "You will not be asked for a verification code for this device in the future"
+  },
+  "otpForm" : {
+    "rememberMeOnthisDevice" : "Confiar en este dispositivo en el futuro.",
+    "submitBtn" : "ENVIAR",
+    "enterSecurityCode" : "Ingresar el código de seguridad",
+    "codeRequired" : "Se requiere un código de 6 dígitos.",
+    "reenterOrRequestNewCode" : "El código es incorrecto o expiró. Ingrese nuevamente el código o solicite uno nuevo."
+  },
+  "error" : {
+    "functionalErr" : "We are having trouble establishing a connection. Please refresh the page."
+  }
+}

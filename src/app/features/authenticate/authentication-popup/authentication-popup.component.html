@@ -1,0 +1,111 @@
+<div class="fdx-c-modal">
+    <div class="fdx-c-modal__backdrop"></div>
+    <div class="fdx-c-modal__main  fdx-c-modal__main--medium">
+        <div class="fdx-c-modal__body">
+            <div class="fdx-u-align--center">
+                <!-- Adding title here -->
+                <div class="fdx-o-grid__row fdx-o-grid__row--center fdx-u-mt--8 fdx-u-mt--1@small">
+                    <h1 class="fdx-c-header fdx-c-header--h4" id="verifyMethodTitle">
+                        {{ 'chooseVerifyMethod.verifyMethodTitle'|translate }}
+                    </h1>
+                </div>
+
+                <!-- Adding subtitle here -->
+                <div class="fdx-u-mb--10 fdx-o-grid__item--10 fdx-u-mt--8 fdx-u-ml--6@small fdx-o-grid__item--10@small-only"
+                    aria-atomic="true" aria-live="assertive">
+                    <h2 class="fdx-c-paragraph fdx-u-mb--0" id="verifyMethodSubtitle">
+                        {{ 'chooseVerifyMethod.verifyMethodSubtitle' | translate }}
+                    </h2>
+                </div>
+                <!--Creating Email Method-->
+                <!--Condition to check Email Method  having primary is false-->
+                <div *ngIf="response && response.output.verificationMethods">
+                    <div *ngFor="let responseData of response.output.verificationMethods">
+                        <div *ngIf="responseData.deliveryMethod ==='EMAIL' && !responseData.primary"
+                            class="fdx-c-tabs-radio fdx-c-tabs-radio--tile">
+
+                            <input type="radio" name="options" id="radio-1" value="email"
+                                class="fdx-c-tabs-radio__radio" aria-describedby="radio-label"  (change)="selectDeliveryMethod($event.target.value)">
+                            <label class="fdx-c-tabs-radio__label" for="radio-1" id="radio-label-email">
+                                <svg class="fdx-c-icon fdx-u-color--blue fdx-u-font-size--h4" aria-hidden="true">
+                                    <use xlink:href="#communication_devices_mail"></use>
+                                </svg>
+                                <dl class="fdx-c-definitionlist  fdx-c-definitionlist--default" aria-atomic="true"
+                                    aria-live="assertive">
+                                    <dt id="email-btn" class="fdx-c-definitionlist__title fdx-u-font-size--small fdx-u-align--left">
+                                        {{'chooseVerifyMethod.emailMethod' | translate}}</dt>
+                                    <dd id="emailResponse"  class="fdx-c-definitionlist__description fdx-u-font-size--small">
+                                        {{responseData.address}}</dd>
+                                </dl>
+                            </label>
+                        </div>
+
+                        <!--Cretaing SMS Method-->
+                        <div *ngIf="responseData.deliveryMethod === 'SMS' && !responseData.primary"
+                            class="fdx-c-tabs-radio fdx-c-tabs-radio--tile fdx-u-my--3">
+
+                            <input type="radio" name="options" id="radio-2" value="sms"
+                                class="fdx-c-tabs-radio__radio" aria-describedby="radio-label"  (change)="selectDeliveryMethod($event.target.value)">
+                            <label class="fdx-c-tabs-radio__label" for="radio-2" id="radio-label-sms">
+                                <svg class="fdx-c-icon fdx-u-color--blue fdx-u-font-size--h4" aria-hidden="true">
+                                    <use xlink:href="#communication_devices_mobile"></use>
+                                </svg>
+                                <dl class=" fdx-c-definitionlist  fdx-c-definitionlist--default">
+                                    <dt id="sms-btn" class="fdx-c-definitionlist__title fdx-u-font-size--small fdx-u-align--left">
+                                        {{ 'chooseVerifyMethod.smsTextMethod' | translate }}</dt>
+                                    <dd id="smsResponse" class="fdx-c-definitionlist__description fdx-u-font-size--small">
+                                        {{responseData.address}}
+                                    </dd>
+                                </dl>
+                            </label>
+                        </div>
+                        <!--Cretaing Phone Call Method-->
+                        <div *ngIf="responseData.deliveryMethod ==='CALL' && !responseData.primary"
+                            class="fdx-c-tabs-radio fdx-c-tabs-radio--tile fdx-u-my--3">
+                            <input type="radio" name="options" id="radio-3" value="phone"
+                                class="fdx-c-tabs-radio__radio" aria-describedby="radio-label"  (change)="selectDeliveryMethod($event.target.value)">
+                            <label class="fdx-c-tabs-radio__label" for="radio-3" id="radio-label-call">
+                                <svg class="fdx-c-icon fdx-u-color--blue fdx-u-font-size--h4" aria-hidden="true">
+                                    <use xlink:href="#communication_devices_phone"></use>
+                                </svg>
+                                <dl class=" fdx-c-definitionlist  fdx-c-definitionlist--default">
+                                    <dt id="phone-btn" class="fdx-c-definitionlist__title fdx-u-font-size--small fdx-u-align--left">
+                                        {{ 'chooseVerifyMethod.phoneCallMethod' | translate }}</dt>
+                                    <dd id="phoneResponse" class="fdx-c-definitionlist__description fdx-u-font-size--small fdx-u-align--left">
+                                        {{responseData.address}}
+                                    </dd>
+                                </dl>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                <!-- Confirm button -->
+                <div class="fdx-u-mb--3 fdx-u-mt--7 fdx-u-ml--3 fdx-u-mr--3">
+                    <button id="confirm-btn" (click)="confirm()"
+                        class="fdx-c-button fdx-c-button--full-width fdx-c-button--primary fdx-c-button--responsive"
+                        aria-atomic="true" aria-live="assertive" [disabled]="!selectedMethod">
+                        {{ 'chooseVerifyMethod.confirmButton' | translate }}
+                    </button>
+                </div>
+
+                <!-- Cancel button -->
+                <div class="fdx-u-mb--2">
+                    <button id="cancelBtn"
+                        class="fdx-c-button fdx-c-button--suffix fdx-c-button--text fdx-c-button--responsive fdx-u-cursor--pointer fdx-u-align--center"
+                        aria-atomic="true" aria-live="assertive" (click)="closePopup()">
+                        {{'chooseVerifyMethod.cancelButton' | translate }}
+                    </button>
+                </div>
+            </div>       
+        <div class="fdx-c-modal__footer">
+            <button class="fdx-c-modal__footer__button fdx-c-button fdx-c-button--icon" (click)="closePopup()">
+                <div>
+                <svg class="fdx-c-icon fdx-o-grid__item--9" aria-hidden="true" focusable="false" role="presentation">
+                    <use xlink:href="#cross"></use>
+                </svg>
+            </div>
+            </button>
+        </div>
+    </div>

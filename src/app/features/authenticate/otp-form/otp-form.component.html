@@ -1,0 +1,91 @@
+<!--Adding the Form input fields containing the 6 digit verification code -->
+
+<div class="fdx-o-grid fdx-o-grid--max-width">
+    <div class="fdx-o-grid__row fdx-o-grid__row--center">
+      <div class="fdx-o-grid__item--6 fdx-u-align--left">
+        <div class="fdx-u-display--flex fdx-u-flex-justify-content--center fdx-u-pb--4">
+          <form [formGroup]="verificationCodeForm">
+            <div class="fdx-c-single-digits">
+              
+              <fieldset class="fdx-c-single-digits__fieldset">
+                <legend class="fdx-c-single-digits__legend">{{'otpForm.enterSecurityCode' | translate}}</legend>
+                <div
+                [class.fdx-c-single-digits__item--is-invalid]="((verificationCodeForm.controls[digit].invalid && 
+                ( verificationCodeForm.controls[digit].dirty || verificationCodeForm.controls[digit].touched )) ||
+                 (verificationCodeForm.controls[digit].invalid && formSubmit)) || digitsStatus[digit] || expiredAndIncorrectError"
+                 class="fdx-c-single-digits__item" *ngFor="let digit of digits; let i = index;">
+                  <input type="number" min="0" formControlName="{{digit}}" data-digit="{{i+1}}" id="input{{i+1}}" attr.aria-label="Verification Code Digit {{i+1}}"                
+                    class="fdx-c-single-digits__item__input" maxlength="1" size="1"
+                    (keyup)="onValueChange($event, i)" (keydown)="onKeyDown($event, i)" (blur)="onBlurEvent(i)"
+                    onCopy="return false" onDrag="return false" onDrop="return false" onPaste="
+                    ">
+                </div>
+              </fieldset>
+            </div>
+            
+            <div *ngIf="verificationCodeForm.invalid"
+              class="fdx-c-form-message--error fdx-u-font-size--super-small fdx-u-mt--2 fdx-u-mb--2">
+              <div *ngIf="!expiredAndIncorrectError && (digitValidStatus 
+              ||((verificationCodeForm.controls['digit1'].invalid && ( verificationCodeForm.controls['digit1'].dirty || verificationCodeForm.controls['digit1'].touched )) || (verificationCodeForm.controls['digit1'].invalid && formSubmit))
+              || ((verificationCodeForm.controls['digit2'].invalid && ( verificationCodeForm.controls['digit2'].dirty || verificationCodeForm.controls['digit2'].touched )) || (verificationCodeForm.controls['digit2'].invalid && formSubmit))
+              || ((verificationCodeForm.controls['digit3'].invalid && ( verificationCodeForm.controls['digit3'].dirty || verificationCodeForm.controls['digit3'].touched )) || (verificationCodeForm.controls['digit3'].invalid && formSubmit))
+              || ((verificationCodeForm.controls['digit4'].invalid && ( verificationCodeForm.controls['digit4'].dirty || verificationCodeForm.controls['digit4'].touched )) || (verificationCodeForm.controls['digit4'].invalid && formSubmit))
+              || ((verificationCodeForm.controls['digit5'].invalid && ( verificationCodeForm.controls['digit5'].dirty || verificationCodeForm.controls['digit5'].touched )) || (verificationCodeForm.controls['digit5'].invalid && formSubmit))
+              || ((verificationCodeForm.controls['digit6'].invalid && ( verificationCodeForm.controls['digit6'].dirty || verificationCodeForm.controls['digit6'].touched )) || (verificationCodeForm.controls['digit6'].invalid && formSubmit)))">
+                {{'otpForm.codeRequired' | translate}}</div>
+            </div>
+            
+            <div *ngIf="expiredAndIncorrectError" class="fdx-c-form-message--error fdx-u-font-size--super-small fdx-u-mt--2 fdx-u-mb--2">
+              {{'otpForm.reenterOrRequestNewCode' | translate}}
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    
+     <!-- Remember Me -->
+  <div class="fdx-c-form-group fdx-c-form-group--checkbox">
+    <input type="checkbox" name="format" id="checkBox" value="VALUE" aria-describedby="me-1"
+      class="fdx-c-form-group__checkbox fdx-u-mt--5" aria-labelledby="checkBox"
+      (change)="trustThisDeviceCheck($event)">
+    <label class="fdx-c-form-group__label fdx-u-pb--7 fdx-u-mt--5 fdx-u-mr--2" for="checkBox" id="checkBoxLabel">
+      {{ 'otpForm.rememberMeOnthisDevice' | translate }}</label>
+
+    <div class="fdx-c-tooltip ">
+      <a tabindex="0" class="fdx-c-tooltip__button" attr.aria-label="{{ 'verifyYourIdentity.tooltipLable' | translate }}" aria-labelledby="notifications-label"
+        aria-expanded="false">
+        <svg class="fdx-c-icon" aria-hidden="true" focusable="false" role="presentation"  (mouseover)="questionMarkVisibility=true" (mouseout)="questionMarkVisibility=false">
+          <use xlink:href="#questionmark-circle"></use>
+        </svg>
+      </a>
+    </div>
+  </div>
+
+<!-- tooltip code  -->
+<div class="fdx-u-display--flex fdx-u-flex-justify-content--center fdx-u-pb--4 wlgn-relative">
+  <div class="fdx-u-tooltip__cdk-overlay-container"></div>
+  <div class="fdx-c-tooltip__main wlgn-tooltip" *ngIf="questionMarkVisibility" role="tooltip" aria-live="assertive"
+    id="notifications-label">
+    <div class="fdx-c-tooltip__main__body fdx-u-align--left">
+      {{ 'verifyYourIdentity.tooltipLable' | translate }}
+    </div>
+    <div class="fdx-c-tooltip__main__footer">
+      <button class="fdx-c-tooltip__main__footer__button">
+        <svg class="fdx-c-icon" aria-hidden="true" focusable="false" role="presentation">
+          <use xlink:href="#cross"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+
+      </div>
+      
+     <!-- submit button -->
+     <div class="fdx-u-mb--3 fdx-u-mt--7 fdx-u-ml--3 fdx-u-mr--3">
+      <button id="submit-btn" (click)="verifyCodeMethod()"
+        class="fdx-c-button fdx-c-button--full-width fdx-c-button--primary fdx-c-button--responsive fdx-u-mt--1 fdx-u-mb--5"
+        aria-atomic="true" aria-live="assertive" type="button">
+        {{ 'otpForm.submitBtn' | translate }}
+      </button>
+     </div>

@@ -1,0 +1,10 @@
+---
+applications:
+- name: wlgn
+  buildpacks:
+  - staticfile_buildpack
+  timeout: 90
+  memory: 128M
+  path: dist
+  env:
+    https_proxy: http://internet.proxy.fedex.com:3128
